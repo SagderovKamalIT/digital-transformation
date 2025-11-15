@@ -1,0 +1,49 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+
+body {
+  overflow: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+.container { 
+  @include min-max(320px, 100%); 
+}
+
+
+.container { 
+  @include min-max(320px, 100%); 
+}
+
+.wrap {
+  @include min-max(320px, 1920px);
+  width: 100%;
+  padding: 0 7.708vw;
+  box-sizing: border-box;
+}
+
+
+body, 
+html {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+
+  &:hover {
+  filter: brightness(0.9);
+  }
+}
