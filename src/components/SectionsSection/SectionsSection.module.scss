@@ -1,0 +1,38 @@
+@use "../../styles/core" as *;
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+@use "../../styles/fonts" as *;
+
+.sections {
+  margin: 0 auto;
+  padding: 76.5px 0 84px 0;
+ 
+
+  &__title {
+  padding-left: clamp(2vw, 4%, 4vw);
+ 
+  }
+}
+
+.sections__container {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+   
+
+}
+
+.section__listCard {
+  font-family: "G8-c", sans-serif;
+  font-weight: 700;
+font-size: 26px;
+line-height: 96%;
+
+}
+

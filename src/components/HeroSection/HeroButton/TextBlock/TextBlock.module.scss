@@ -1,0 +1,14 @@
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 51px;
+  margin: 0 170px 0 240px;
+  align-content: flex-end;
+}
+
+.textP {
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "G8-c", sans-serif;
+  line-height: 98%;
+}

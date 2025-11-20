@@ -1,0 +1,25 @@
+@use "../../../styles/core" as *;
+@use "../../../styles/variables" as *;
+@use "../../../styles/mixins" as *;
+@use "../../../styles/fonts" as *;
+
+
+.card {
+  background-image: url('../../../assets/images/OrgCardBackground.svg');
+  background-size: cover;       
+  background-position: center;
+ border-radius: 48px;
+  overflow: hidden;
+  width: 100%;
+  
+}
+
+
+
+.cardContent {
+  position: relative;
+  padding: 53px 65px 75px 65px;  
+  z-index: 1;
+  color: white;
+}
+

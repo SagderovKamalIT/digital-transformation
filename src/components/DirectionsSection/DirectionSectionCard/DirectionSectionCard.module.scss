@@ -1,0 +1,25 @@
+@use "../../../styles/core" as *;
+@use "../../../styles/fonts" as *;
+@use "../../../styles/variables" as *;
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 70px 60px;
+  border-radius: 63px;
+  background: linear-gradient(180deg, #fff 21.65%, #d7defe 96.16%);
+
+  &__title,
+  &__paragraph {
+    font-family: "G8-c", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: $blue-zodiac;
+  }
+
+  p {
+    font-weight: 400;
+  }
+}

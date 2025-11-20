@@ -1,5 +1,6 @@
 @use "./variables" as *;
 @use "./mixins" as *;
+@use "./mixins" as *;
 
 
 body {
@@ -16,17 +17,22 @@ html {
   @include min-max(320px, 100%); 
 }
 
-
-.container { 
-  @include min-max(320px, 100%); 
-}
-
 .wrap {
   @include min-max(320px, 1920px);
   width: 100%;
-  padding: 0 7.708vw;
+  padding: 0 8vw;
   box-sizing: border-box;
 }
+
+
+.section__wrap {
+  @include min-max(320px, 1920px);
+  width: 100%;
+  padding: 0 11vw;
+  box-sizing: border-box;
+}
+
+
 
 
 body, 
@@ -46,4 +52,13 @@ button {
   &:hover {
   filter: brightness(0.9);
   }
+}
+
+
+a, 
+p, 
+h1, 
+h2, 
+h3 {
+  color: $white;
 }

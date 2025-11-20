@@ -1,0 +1,51 @@
+.button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+    width: max-content; 
+  height: auto;
+  transition: filter 200ms ease;
+
+  .svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .label {
+    font-family: G8-c, sans-serif;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    font-weight: 600;
+    pointer-events: none;
+  }
+}
+
+.large {
+  width: fit-content;
+  height: 100px;
+
+  .label {
+    font-size: 32px;
+    padding: 36px 76px;
+  }
+}
+
+.small {
+  width: fit-content;
+  height: auto;
+
+  .label {
+    font-size: 18px;
+    padding: 18px 40px;
+  }
+}
+

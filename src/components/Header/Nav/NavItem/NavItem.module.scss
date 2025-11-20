@@ -1,0 +1,9 @@
+@use "../../../../styles/variables" as *;
+@use "../../../../styles/fonts" as *;
+
+.nav__element {
+  font-family: Geist-c;
+  font-weight: 300;
+  font-size: 32px;
+  color: $white;
+}
