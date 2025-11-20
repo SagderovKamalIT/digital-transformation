@@ -1,0 +1,11 @@
+@use "../../../styles/core" as *;
+@use "../../../styles/fonts" as *;
+
+
+.speakers__list {
+ display: grid;
+grid-template-columns: repeat(2, 1fr);
+column-gap: 65px;
+row-gap: 30px;
+}
+

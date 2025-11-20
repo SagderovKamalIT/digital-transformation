@@ -1,0 +1,40 @@
+@use "../../../styles/core" as *;
+@use "../../../styles/fonts" as *;
+@use "../../../styles/variables" as *;
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 42px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 28px 43px;
+
+  &__title {
+    font-family: "G8-c", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: $blue-zodiac;
+  }
+}
+
+.card__Underline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25.5px;
+
+  &Text {
+    font-family: "G8-c", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    text-decoration: underline;
+    color: $blue-zodiac;
+  }
+
+  button {
+    border: none;
+    background: none;
+  }
+}

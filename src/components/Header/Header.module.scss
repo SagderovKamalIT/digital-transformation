@@ -1,0 +1,9 @@
+@use "../../styles/core" as *;
+
+.header__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 75px;
+  align-items: center;
+}

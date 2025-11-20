@@ -1,0 +1,28 @@
+.nav__button {
+position: relative;
+background: linear-gradient(135deg, rgba(255, 255, 255, 0), rgba(65, 81, 113, 0.7) 70%);
+border-radius: 126px;
+width: 93px;
+height: 93px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../../../assets/images/noise.png'); 
+    pointer-events: none;
+  }
+
+   &:hover {
+    background: linear-gradient(135deg, rgba(255,255,255,0.3), rgba(65,81,113,0.8) 70%);
+  }
+
+  svg {
+    z-index: 1; 
+  }
+
+}

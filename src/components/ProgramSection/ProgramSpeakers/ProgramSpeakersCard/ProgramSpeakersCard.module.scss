@@ -1,0 +1,41 @@
+@use "../../../../styles/fonts" as *;
+@use "../../../../styles/core" as *;
+
+.speakers__card {
+  display: flex;
+  flex-direction: column;
+  gap: 22.4px;
+
+  h4 {
+    font-family: "Geist-c", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+
+  }
+}
+
+.speakers__cardContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 23px;
+
+
+}
+
+.speakers__cardText {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  
+  white-space: pre-line;
+
+   p {
+    font-family: "Inter-c", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 110%;
+
+  }
+
+}

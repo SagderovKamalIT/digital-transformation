@@ -1,1 +1,19 @@
+@use "./styles/core" as *;
+@use "./styles/variables" as *;
+@use "./styles/mixins" as *;
 @import './styles/main.scss';
+
+
+body {
+  background: linear-gradient(
+    180deg,
+    #010220 1.44%,
+    #1d164c 24.25%,
+    #171b4d 52.4%,
+    #1d174d 86.06%,
+    #020322 96.54%
+  );
+}
+
+
+
