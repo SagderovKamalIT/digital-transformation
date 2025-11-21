@@ -1,0 +1,44 @@
+@use "../../styles/core" as *;
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+@use "../../styles/fonts" as *;
+
+.nav {
+  padding-bottom: 107px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 78px;
+    align-items: center;
+
+  }
+}
+
+.nav__links {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+
+  &Registration {
+    font-family: "Geist-c", sans-serif;
+    font-weight: 900;
+font-size: 24px;
+color: $blue-zodiac;
+background: linear-gradient(180deg, #fff 6.46%, #cfd7ff 100%);
+opacity: 0.99;
+    padding: 23px 20px;
+    border-radius: 48px;
+    width: 457px;
+    transition: color 0.4s ease; 
+
+    
+  &:hover {
+      color: lighten($blue-zodiac, 30%);
+  }
+
+  }
+
+ 
+}

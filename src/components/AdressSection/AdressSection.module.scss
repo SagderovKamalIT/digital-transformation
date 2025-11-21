@@ -1,0 +1,29 @@
+@use "../../styles/core" as *;
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+@use "../../styles/fonts" as *;
+
+.adress__container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.adress__title {
+  padding-left: 0;
+  text-align: center;
+}
+
+.adress__link {
+  display: flex;
+  flex-direction: column;
+  gap: 71px;
+
+  &Text {
+    font-family: "Inter-c", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 96%;
+    text-align: center;
+  }
+}

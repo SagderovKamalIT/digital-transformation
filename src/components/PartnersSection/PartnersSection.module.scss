@@ -32,16 +32,22 @@
   align-items: center;
   justify-content: center;
 
-  li {
-    display: flex;
-    flex-direction: row;
-    gap: clamp(45px, 3vw, 60px);
-  }
+
 
   :nth-child(3) {
     gap: 179px;
   }
 }
+
+ .partners__item {         
+    display: flex;
+    flex-direction: row;
+    gap: clamp(45px, 3vw, 60px);
+    align-items: center;
+
+    
+
+  }
 
 .specialLogo {
   max-height: clamp(40px, 6vh, 57px);
@@ -64,20 +70,25 @@
 }
 
 
-li:nth-child(1) img {
-  max-height: clamp(60px, 8vh, 89px);
-  width: auto;
-}
+.partners__item:nth-child(1) .partner__img {
+    max-height: clamp(60px, 8vh, 89px);
+    width: auto;
+    display: block;
+    object-fit: contain;
+  }
 
-li:nth-child(2) img {
-  max-height: clamp(100px, 10vh, 130px);
-  width: auto;
-   align-self: center;
- 
-}
+  .partners__item:nth-child(2) .partner__img {
+    max-height: clamp(100px, 10vh, 130px);
+    width: auto;
+    display: block;
+    object-fit: contain;
+    align-self: center;
+  }
 
-li:nth-child(3) img {
-  max-height: clamp(80px, 10vh, 100px);
-  width: auto;
-   align-self: center;
-}
+  .partners__item:nth-child(3) .partner__img {
+    max-height: clamp(80px, 10vh, 100px);
+    width: auto;
+    display: block;
+    object-fit: contain;
+    align-self: center;
+  }

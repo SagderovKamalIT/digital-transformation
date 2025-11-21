@@ -1,0 +1,46 @@
+@use "../../styles/core" as *;
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+@use "../../styles/fonts" as *;
+
+.links {
+  padding-bottom: 103px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  &__title {
+    text-align: center;
+     padding-left: 0;
+   
+  }
+
+}
+
+
+.links__list {
+display: flex;
+flex-direction: row;
+gap: 53px;
+margin: 0 auto;
+
+}
+
+.links__itemImg {
+  width: 260px;
+  height: 260px;
+  cursor: pointer;
+  transition: transform 0.25s ease;
+
+    &:hover {
+    transform: scale(1.05); 
+  }
+
+  &:active {
+    transform: scale(1.1); 
+  }
+}
+

@@ -3,6 +3,55 @@
 @use "../../styles/mixins" as *;
 @use "../../styles/fonts" as *;
 
+.direction {
+  position: relative;
+
+   &::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 1119px;
+    height: 1120px;
+
+    background: url(../../assets/images/DirectionSection/directionLeftShadow.svg) no-repeat;
+    background-position: left;
+    background-size: contain;
+    z-index:1;
+    animation: floatUpDown 3s ease-in-out infinite alternate;
+
+    
+  }
+
+  @keyframes floatUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(30px); 
+  }
+}
+
+}
+
+.direction__shadow {
+  position: relative;
+
+    &::after {
+    content: "";
+    position: absolute;
+    top: 19%;
+    left: -10%;
+    width: 532px;
+    height: 828px;
+
+    background: url(../../assets/images/HeroSection/heroShadowLeft.svg) no-repeat;
+    background-position: left;
+    background-size: contain;
+    z-index:-2;
+    rotate: 160deg;
+  }
+}
 
 .direction__container {
   display: flex;

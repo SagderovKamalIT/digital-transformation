@@ -1,7 +1,6 @@
 import React, { useState, useCallback } from "react";
 import styles from "./HeroButton.module.scss";
-import ButtonBG from "./HeroButtonBG";
-import ButtonBGWide from "./HeroButtonBGWide";
+
 
 const Button = ({ label = "Нажать", onToggle, className = "", size = "small", bg = "default" }) => {
   const [active, setActive] = useState(false);
@@ -21,7 +20,7 @@ const Button = ({ label = "Нажать", onToggle, className = "", size = "smal
     }
   };
 
-  const BGComponent = bg === "wide" ? ButtonBGWide : ButtonBG;
+
 
   return (
     <div

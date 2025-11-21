@@ -1,0 +1,27 @@
+<svg width="260" height="260" viewBox="0 0 260 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.99" filter="url(#filter0_g_64_23)">
+<path d="M0 48C0 21.4903 21.4903 0 48 0H212C238.51 0 260 21.4903 260 48V212C260 238.51 238.51 260 212 260H48C21.4903 260 0 238.51 0 212V48Z" fill="url(#paint0_linear_64_23)" fill-opacity="0.19"/>
+<path d="M48 0.5H212C238.234 0.5 259.5 21.7665 259.5 48V212C259.5 238.234 238.234 259.5 212 259.5H48C21.7665 259.5 0.5 238.234 0.5 212V48C0.5 21.7665 21.7665 0.5 48 0.5Z" stroke="url(#paint1_linear_64_23)" stroke-opacity="0.54"/>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M204.148 91.4364C205.234 87.9015 204.148 85.2988 198.947 85.2988H181.776C177.406 85.2988 175.391 87.5454 174.299 90.025C174.299 90.025 165.566 110.717 153.196 124.157C149.193 128.055 147.374 129.291 145.189 129.291C144.097 129.291 142.455 128.055 142.455 124.513V91.4364C142.455 87.1893 141.251 85.2988 137.614 85.2988H110.611C107.883 85.2988 106.241 87.267 106.241 89.1381C106.241 93.1586 112.429 94.0909 113.064 105.408V129.997C113.064 135.39 112.063 136.368 109.878 136.368C104.056 136.368 89.8935 115.579 81.4877 91.7925C79.8588 87.1634 78.2104 85.2988 73.821 85.2988H56.6364C51.7303 85.2988 50.749 87.5454 50.749 90.025C50.749 94.4405 56.571 116.375 77.8637 145.386C92.0588 165.198 112.043 175.938 130.248 175.938C141.166 175.938 142.514 173.556 142.514 169.445V154.47C142.514 149.698 143.547 148.746 147.008 148.746C149.559 148.746 153.922 149.99 164.114 159.539C175.758 170.863 177.674 175.938 184.229 175.938H201.4C206.307 175.938 208.766 173.556 207.353 168.843C205.796 164.155 200.236 157.351 192.864 149.277C188.86 144.681 182.855 139.728 181.03 137.248C178.485 134.069 179.212 132.651 181.03 129.822C181.03 129.822 201.963 101.167 204.141 91.4364" fill="#B5B2DA"/>
+<defs>
+<filter id="filter0_g_64_23" x="0" y="0" width="260" height="260" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feTurbulence type="fractalNoise" baseFrequency="inf inf" numOctaves="3" seed="9907" />
+<feDisplacementMap in="shape" scale="0" xChannelSelector="R" yChannelSelector="G" result="displacedImage" width="100%" height="100%" />
+<feMerge result="effect1_texture_64_23">
+<feMergeNode in="displacedImage"/>
+</feMerge>
+</filter>
+<linearGradient id="paint0_linear_64_23" x1="149.363" y1="23.2311" x2="223.818" y2="250.318" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="0.593528" stop-color="#384074" stop-opacity="0.64"/>
+<stop offset="1" stop-color="#120F3B"/>
+</linearGradient>
+<linearGradient id="paint1_linear_64_23" x1="264.203" y1="130" x2="2.77517" y2="127.93" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#1C194D"/>
+</linearGradient>
+</defs>
+</svg>

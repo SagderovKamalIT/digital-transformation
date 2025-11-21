@@ -1,8 +1,11 @@
 import React from "react";
+import "../../../styles/_fonts.scss"
+import styles from "./ProgramButton.module.scss"
+
 
 const ProgramButton = ({ children, className = ""}) => {
   return (
-    <div textClassName className={className} style={{ position: "relative", display: "inline-block", width: "404px", height: "101px" }}>
+    <div className={className} style={{ position: "relative", display: "inline-block", width: "404px", height: "101px" }}>
      
       <svg
         width="404"
@@ -53,18 +56,9 @@ const ProgramButton = ({ children, className = ""}) => {
         </defs>
       </svg>
 
-      <div
-        style={{
-          position: "absolute",
-          top: "50%",
-          left: "50%",
-          transform: "translate(-50%, -50%)",
-          color: "white",
-          fontSize: "24px",
-          fontFamily: "Geist-с, sans-serif",
-          fontWeight: "900",
-          pointerEvents: "none"
-        }}
+      <div 
+      className={`${styles.buttonText}`}
+      style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)" }}
       >
         {children}
       </div>

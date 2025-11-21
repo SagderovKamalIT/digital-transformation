@@ -1,0 +1,25 @@
+@use "../../../styles/core" as *;
+@use "../../../styles/variables" as *;
+@use "../../../styles/mixins" as *;
+
+.heroCardBig {
+   position: relative;
+  background-image: url("../../../assets/images/HeroSection/hero__titleBig.svg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 48px;
+  overflow: hidden;
+   display: inline-block;
+}
+
+.heroContentBig {
+  position: relative;
+  padding: 37px 89px;
+  z-index: 1;
+  color: white;
+  font-family: "Geist-c", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  
+}

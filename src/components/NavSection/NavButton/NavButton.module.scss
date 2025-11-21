@@ -1,0 +1,30 @@
+@use "../../../styles/core" as *;
+@use "../../../styles/variables" as *;
+@use "../../../styles/mixins" as *;
+@use "../../../styles/fonts" as *;
+
+.navCard {
+  position: relative;
+  background-image: url("../../../assets/icons/nav__button.svg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 48px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.navContent {
+  position: relative;
+  padding: 23px 20px;
+  z-index: 1;
+  color: white;
+  font-family: "Geist-c", sans-serif;
+  text-align: center;
+  font-weight: 300;
+  font-size: 32px;
+   transition: color 0.4s ease; 
+
+  &:hover {
+    color: $cloudy-blue;
+  }
+}

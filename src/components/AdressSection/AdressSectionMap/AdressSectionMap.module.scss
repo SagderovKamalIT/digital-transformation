@@ -1,0 +1,17 @@
+@use "../../../styles/core" as *;
+@use "../../../styles/variables" as *;
+@use "../../../styles/mixins" as *;
+@use "../../../styles/fonts" as *;
+
+.map {
+  border-radius: 54px;
+  overflow: hidden;
+  width: 1366px;
+  height: 731px;
+  background-color: #333;
+  margin: 0 auto;
+}
+
+[class*="copyrights-pane"] {
+  display: none !important;
+}

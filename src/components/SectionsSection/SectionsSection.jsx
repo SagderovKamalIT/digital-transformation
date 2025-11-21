@@ -13,6 +13,8 @@ const SectionsSection = () => {
   ];
 
   return (
+    <div className={styles.section} >
+
     <section className={styles.sections}>
       <div className={styles.section__wrap}>
         <div className={styles.sections__container}>
@@ -32,6 +34,7 @@ const SectionsSection = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 

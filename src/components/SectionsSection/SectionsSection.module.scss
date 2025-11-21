@@ -3,9 +3,30 @@
 @use "../../styles/mixins" as *;
 @use "../../styles/fonts" as *;
 
+.section {
+  position: relative;
+
+  
+    &::after {
+    content: "";
+    position: absolute;
+    bottom: -97%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2115px;
+    height: 1647px;
+
+    background: url(../../assets/images/SectionsSection/sections__shadow.svg) no-repeat;
+    background-position: center;
+    background-size: contain;
+    z-index:-2;
+}
+}
+
 .sections {
   margin: 0 auto;
   padding: 76.5px 0 84px 0;
+
  
 
   &__title {

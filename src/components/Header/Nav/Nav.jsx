@@ -3,15 +3,19 @@ import styles from "./Nav.module.scss";
 
 const Nav = () => {
 
-  const menu = ['О конференции', 'Программа'];
+ const menu = [
+  { text: "О конференции", id: "about" },
+  { text: "Программа", id: "program" }
+];
 
   return (
     <nav className={styles.nav} >
-    <ul>
-      {menu.map((item, index) => (
-       <NavItem key={index} text={item} />
-      ))}
-    </ul>
+   <ul>
+  {menu.map((item, index) => (
+    <NavItem key={index} text={item.text} id={item.id} />
+  ))}
+</ul>
+
     </nav>
 
   )

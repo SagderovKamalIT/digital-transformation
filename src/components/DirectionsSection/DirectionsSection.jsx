@@ -51,7 +51,12 @@ const DirectionsSection = () => {
   ];
 
   return (
-    <div className={`${styles.direction} ${styles.section__wrap}`}>
+
+    <div className={styles.direction} >
+
+      <div className={styles.direction__shadow} >
+
+    <div className={styles.section__wrap}>
       <div className={styles.direction__container}>
         <Title>ФОКУСНЫЕ НАПРАВЛЕНЯ КОНФЕРЕНЦИИ</Title>
 
@@ -77,6 +82,9 @@ const DirectionsSection = () => {
                </div>
 
       </div>
+    </div>
+      </div>
+      
     </div>
   );
 };

@@ -3,11 +3,12 @@ import styles from "./Text.module.scss";
 
 const Text = ({
   children,
-  className = "",       
+  className = "", 
+  id,      
 }) => {
 
   return (
-    <p className={`${styles.base}  ${className}`}>
+    <p id={id} className={`${styles.base}  ${className}`}>
       {children}
     </p>
   );

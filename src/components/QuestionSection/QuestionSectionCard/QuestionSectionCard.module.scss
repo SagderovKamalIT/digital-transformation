@@ -1,0 +1,38 @@
+@use "../../../styles/core" as *;
+@use "../../../styles/variables" as *;
+@use "../../../styles/mixins" as *;
+@use "../../../styles/fonts" as *;
+
+.card {
+  position: relative;
+  background-image: url("../../../assets/images/QueCardBackground.svg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 48px;
+  overflow: hidden;
+  width: 100%;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    width: 8px;
+    border-radius: 0 48px 48px 0;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(56, 64, 116, 0.64) 50%,
+      #120f3b 100%
+    );
+    pointer-events: none;
+  }
+}
+
+.cardContent {
+  position: relative;
+  padding: 104px 65px;
+  z-index: 1;
+  color: white;
+}
