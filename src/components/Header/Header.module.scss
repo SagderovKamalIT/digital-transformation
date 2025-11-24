@@ -28,3 +28,22 @@
     align-items: center;
   }
 }
+
+
+@media (max-width: 960px) {
+  .header__container {
+    padding-top: 25px;
+    gap: 12px;
+    align-items: center;
+    padding-left: 0 ;
+  }
+}
+
+
+@media (max-width: 740px) {
+  .header__container {
+    padding-top: 15px;
+    gap: 8px;
+  }
+}
+

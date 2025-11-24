@@ -29,3 +29,20 @@ align-items: center;
 }
 
 
+
+@media (max-width: 960px) {
+  .speakers__list {
+    grid-template-columns: 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+  }
+}
+
+
+@media (max-width: 740px) {
+  .speakers__list {
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+}

@@ -22,7 +22,9 @@ const ProgramSection = () => {
               <ProgramSmallCard className="myCustomClass">
                 <h3 className={`${styles.program__sectionTitle} ${styles.program__container}`}>11:00-12:00</h3>
 
-                <ProgramButton className={styles.program__buttonAlone} >РЕГИСТРАЦИЯ</ProgramButton>
+              
+                <ProgramButton className={styles.program__sectionBtnSmal} >РЕГИСТРАЦИЯ</ProgramButton>
+
                 <span className={styles.program__span}></span>
               </ProgramSmallCard>
 

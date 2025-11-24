@@ -64,3 +64,41 @@
     font-size: 24px;
   }
 }
+
+
+@media (max-width: 960px) {
+  .adress__container {
+    gap: 16px;
+  }
+
+  .adress__link {
+    gap: 30px;
+
+    &Text {
+      font-size: 20px;
+    }
+  }
+
+  .adress__title {
+    font-size: 32px;
+  }
+}
+
+
+@media (max-width: 740px) {
+  .adress__container {
+    gap: 12px;
+  }
+
+  .adress__link {
+    gap: 20px;
+
+    &Text {
+      font-size: 18px;
+    }
+  }
+
+  .adress__title {
+    font-size: 24px;
+  }
+}

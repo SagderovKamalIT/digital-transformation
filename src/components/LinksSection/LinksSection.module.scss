@@ -90,3 +90,43 @@ margin: 0 auto;
     gap: 35px;
   }
 }
+
+
+@media (max-width: 960px) {
+
+  .links {
+  padding-bottom: 55px; 
+  }
+  .links__itemImg {
+    width: 150px;
+    height: 150px;
+  }
+
+  .links__list {
+    gap: 20px;
+  }
+
+  .links__container {
+    gap: 25px;
+  }
+}
+
+
+@media (max-width: 740px) {
+  .links {
+    padding-bottom: 40px;
+  }
+
+  .links__itemImg {
+    width: 120px;
+    height: 120px;
+  }
+
+  .links__list {
+    gap: 15px;
+  }
+
+  .links__container {
+    gap: 20px;
+  }
+}

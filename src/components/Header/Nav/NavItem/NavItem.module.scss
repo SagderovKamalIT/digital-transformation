@@ -33,6 +33,18 @@
   }
 }
 
+@media (max-width: 960px) {
+  .nav__element {
+    font-size: 22px;
+  }
+}
+
+
+@media (max-width: 740px) {
+  .nav__element {
+    font-size: 18px;
+  }
+}
 
 
 

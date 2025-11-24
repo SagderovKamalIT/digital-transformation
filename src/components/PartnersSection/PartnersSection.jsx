@@ -40,7 +40,7 @@ const PartnersSection = () => {
     <div className={styles.partners}>
       <div className={styles.section__wrap}>
         <div className={styles.partners__container}>
-          <Title>ПАРТНЕРЫ КОНФЕРЕНЦИИ</Title>
+          <Title className={styles.section__containerTitle} >ПАРТНЕРЫ КОНФЕРЕНЦИИ</Title>
           <ul className={styles.partners__list}>
             {[partners1, partners2, partners3].map((row, rowIndex) => (
               <li key={rowIndex} className={styles.partners__item}>

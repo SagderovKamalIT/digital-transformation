@@ -476,7 +476,7 @@
   }
 
   .hero__mainButton {
-    margin-right: 40px;
+    margin-right: 65px;
 
     @include btn(
       linear-gradient(180deg, #fff 6.46%, #cfd7ff 100%),
@@ -490,3 +490,180 @@
     );
   }
 }
+
+
+@media (max-width: 960px) {
+  .hero {
+    &::after {
+      width: 520px;
+      height: 520px;
+      top: 27%;
+    }
+
+    &::before {
+      width: 430px;
+      height: 440px;
+    }
+  }
+
+  .hero__shadow {
+    &::after {
+      top: 15%;
+      width: 260px;
+      height: 480px;
+    }
+
+    &::before {
+      width: 430px;
+      height: 440px;
+    }
+  }
+
+  .hero__ExtraShadow {
+    &::after {
+      width: 900px;
+      height: 380px;
+    }
+  }
+
+  .hero__container {
+    padding: 50px 0 60px 0;
+    gap: 50px;
+  }
+
+  .hero__infoBtn1,
+  .hero__infoBtn2 {
+    font-size: 22px;
+    padding: 20px 45px;
+  }
+
+  .hero__main {
+    gap: 14px;
+
+    &Paragraph {
+      font-size: 20px;
+    }
+  }
+
+  .hero__mainContainer {
+    gap: 26px;
+  }
+
+  .hero__mainTitle {
+    font-size: 52px;
+  }
+
+  .hero__mainText {
+    font-size: 20px;
+  }
+
+  .hero__mainButton {
+    margin-right: 60px;
+
+    @include btn(
+      linear-gradient(180deg, #fff 6.46%, #cfd7ff 100%),
+      $blue-zodiac,
+      16px,
+      20px,
+      55px,
+      20px,
+      55px,
+      45px
+    );
+
+    transform: scale(0.9);   
+    transform-origin: center;
+  }
+}
+
+@media (max-width: 740px) {
+  .hero {
+    &::after {
+      width: 420px;
+      height: 420px;
+      top: 30%;
+      left: -2.5%;
+    }
+
+    &::before {
+      width: 360px;
+      height: 360px;
+      top: -3%;
+    }
+  }
+
+  .hero__shadow {
+    &::after {
+      left: -12%;
+      top: 18%;
+      width: 220px;
+      height: 420px;
+    }
+
+    &::before {
+      width: 360px;
+      height: 360px;
+    }
+  }
+
+  .hero__ExtraShadow {
+    &::after {
+      width: 760px;
+      height: 320px;
+    }
+  }
+
+  .hero__container {
+    padding: 40px 0 50px 0;
+    gap: 40px;
+  }
+
+  .hero__info {
+    gap: 10px;
+  }
+
+  .hero__infoBtn1,
+  .hero__infoBtn2 {
+    font-size: 18px;
+    padding: 16px 36px;
+  }
+
+  .hero__main {
+    gap: 12px;
+
+    &Paragraph {
+      font-size: 18px;
+    }
+  }
+
+  .hero__mainContainer {
+    gap: 20px;
+  }
+
+  .hero__mainTitle {
+    font-size: 38px;
+  }
+
+  .hero__mainText {
+    font-size: 16px;
+  }
+
+  .hero__mainButton {
+    margin-right: 30px;
+
+    @include btn(
+      linear-gradient(180deg, #fff 6.46%, #cfd7ff 100%),
+      $blue-zodiac,
+      14px,
+      18px,
+      50px,
+      18px,
+      50px,
+      40px
+    );
+
+    transform: scale(0.85);
+    transform-origin: center;
+  }
+}
+

@@ -2,6 +2,13 @@
 @use "./mixins" as *;
 @use "./mixins" as *;
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -77,5 +84,16 @@ h3 {
 
   .section__wrap {
     padding: 0 8vw;
+  }
+}
+
+
+@media (max-width: 960px) {
+    .wrap {
+    padding: 0 4vw;
+  }
+
+  .section__wrap {
+    padding: 0 6vw;
   }
 }

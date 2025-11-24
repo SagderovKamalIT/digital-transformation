@@ -172,3 +172,76 @@
 }
 
 
+
+@media (max-width: 960px) {
+
+
+  .direction {
+    &::after {
+      width: 500px;
+      height: 500px;
+      left: -5%;
+      top: 15%;
+    }
+  }
+
+  .direction__shadow {
+    &::after {
+      width: 320px;
+      height: 550px;
+      top: 10%;
+    }
+  }
+
+  .direction__container {
+    gap: 40px;
+  }
+
+  .direction__list {
+    gap: 18px;
+  }
+
+  .direction__cardSmall {
+    gap: 20px;
+
+    p {
+      font-size: 22px;
+    }
+  }
+}
+
+
+@media (max-width: 740px) {
+  .direction {
+    &::after {
+      width: 360px;
+      height: 360px;
+      left: -6%;
+      top: 12%;
+    }
+  }
+
+  .direction__shadow {
+    &::after {
+      width: 220px;
+      height: 380px;
+      top: 8%;
+    }
+  }
+
+  .direction__container {
+    gap: 25px;
+  }
+
+  .direction__list {
+    gap: 12px;
+  }
+
+  .direction__cardSmall {
+    gap: 12px;
+
+    p {
+      font-size: 16px;
+    }
+  }
+}

@@ -10,7 +10,7 @@
   overflow: hidden;
   display: inline-block;
   font-family: inherit;
-   max-width: 404px;
+  max-width: 404px;
   width: 100%;
 }
 .buttonContent {
@@ -24,12 +24,11 @@
   color: white;
 }
 
-
 @media (max-width: 1620px) {
   .buttonContent {
-  font-size: 20px;
-  padding: 40px 24px;
-}
+    font-size: 20px;
+    padding: 40px 24px;
+  }
 }
 
 @media (max-width: 1410px) {
@@ -46,3 +45,26 @@
   }
 }
 
+@media (max-width: 960px) {
+  .button {
+     max-width: 250px;
+  width: 100%;
+  }
+  .buttonContent {
+    font-size: 14px;
+    padding: 25px 15px;
+  }
+}
+
+
+@media (max-width: 740px) {
+  .button {
+    max-width: 230px;
+    width: 100%;
+  }
+
+  .buttonContent {
+    font-size: 12px;
+    padding: 20px 12px;
+  }
+}

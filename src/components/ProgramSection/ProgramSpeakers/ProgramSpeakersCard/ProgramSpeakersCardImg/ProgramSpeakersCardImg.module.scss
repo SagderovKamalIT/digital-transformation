@@ -28,3 +28,20 @@ height: 168px;
   }
 }
 
+
+@media (max-width: 960px) {
+  .speakers__img {
+    width: 130px;
+    height: 130px;
+    border-radius: 97px;
+  }
+}
+
+@media (max-width: 740px) {
+  .speakers__img {
+    width: 110px;
+    height: 110px;
+    border-radius: 82px;
+  }
+}
+

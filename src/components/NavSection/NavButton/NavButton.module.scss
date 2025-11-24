@@ -60,3 +60,15 @@
     border-radius: 28px;
   }
 }
+
+
+@media (max-width: 740px) {
+  .navContent {
+    font-size: 20px;
+    padding: 12px 8px;
+  }
+
+  .navCard {
+    border-radius: 20px;
+  }
+}

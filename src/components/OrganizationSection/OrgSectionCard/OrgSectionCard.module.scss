@@ -35,3 +35,19 @@
     padding: 30px 35px 45px 35px;
   }
 }
+
+
+@media (max-width: 960px) {
+  .card {
+    border-radius: 28px;
+  }
+
+  
+}
+
+@media (max-width: 740px) {
+  .cardContent {
+    padding: 20px 25px 30px 25px;
+  }
+}
+

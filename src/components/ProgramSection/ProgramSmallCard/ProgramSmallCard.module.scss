@@ -35,8 +35,27 @@
 }
 
 @media (max-width: 1180px) {
+
   .cardContent {
    padding: 25px 30px 25px 30px;
   }
 }
 
+
+@media (max-width: 960px) {
+  .card {
+    border-radius: 28px;
+  }
+}
+
+
+@media (max-width: 740px) {
+  .card {
+    border-radius: 20px;
+  }
+
+  .cardContent {
+    padding: 18px 20px 18px 20px;
+    gap: 12px;
+  }
+}

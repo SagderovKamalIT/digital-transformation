@@ -68,3 +68,21 @@
   }
 }
 
+
+@media (max-width: 960px) {
+
+  .card {
+    border-radius: 28px;
+  }
+
+  .cardContent {
+    padding: 50px 20px;
+  }
+
+  .card::after {
+    right: -1px;
+    width: 2px;
+  }
+}
+
+

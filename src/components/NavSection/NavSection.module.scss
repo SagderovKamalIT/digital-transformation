@@ -87,3 +87,31 @@
     }
   }
 }
+
+@media (max-width: 740px) {
+
+  .nav {
+     padding-bottom: 50px;
+  }
+  
+  .nav__links {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+
+    &Registration {
+      width: 260px; 
+      font-size: 18px;
+      padding: 12px 10px;
+      text-align: center;
+    }
+  }
+
+  .nav__container {
+    gap: 25px;
+
+    &Logo {
+      transform: scale(0.6);
+    }
+  }
+}

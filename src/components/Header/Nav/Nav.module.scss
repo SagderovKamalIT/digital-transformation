@@ -27,3 +27,17 @@
     gap: 45px;
   }
 }
+
+
+@media (max-width: 960px) {
+  .nav ul {
+    gap: 38px;
+  }
+}
+
+@media (max-width: 740px) {
+  .nav ul {
+    gap: 28px;
+  }
+}
+

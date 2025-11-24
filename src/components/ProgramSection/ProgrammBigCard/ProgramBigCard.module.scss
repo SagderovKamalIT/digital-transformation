@@ -37,3 +37,22 @@
     gap: 14px;
   }
 }
+
+@media (max-width: 960px) {
+  .card {
+    border-radius: 28px;
+  }
+}
+
+
+@media (max-width: 740px) {
+  .card {
+    border-radius: 20px;
+    width: 100%;
+  }
+
+  .cardContent {
+    padding: 18px 20px 18px 20px;
+    gap: 12px;
+  }
+}

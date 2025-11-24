@@ -97,3 +97,66 @@
     }
   }
 }
+
+
+@media (max-width: 960px) {
+  .organization__content {
+    gap: 20px;
+
+    h3 {
+      font-size: 20px;
+      line-height: 102%;
+    }
+  }
+
+  .organization__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: clamp(10px, 5vw, 40px);
+    justify-items: center;
+
+    &Element {
+      gap: clamp(10px, 3vw, 20px);
+      font-size: 18px;
+      width: 100%;
+      text-align: center;
+    }
+
+    &Element:nth-child(3) {
+      grid-column: auto;
+      justify-self: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+}
+
+
+@media (max-width: 740px) {
+  .organization__content {
+    gap: 15px;
+
+    h3 {
+      font-size: 18px;
+      line-height: 100%;
+    }
+  }
+
+  .organization__list {
+    gap: clamp(8px, 5vw, 30px);
+
+    &Element {
+      gap: clamp(8px, 3vw, 15px);
+      font-size: 16px;
+      width: 100%;
+      text-align: center;
+    }
+
+    &Element:nth-child(3) {
+      grid-column: auto;
+      justify-self: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+}

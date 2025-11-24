@@ -98,3 +98,40 @@
   }
 }
 
+
+@media (max-width: 960px) {
+  .speakers__card {
+    gap: 16px;
+
+    h4 {
+      font-size: 14px;
+    }
+  }
+
+  .speakers__cardContainer {
+    gap: 12px;
+  }
+
+  .speakers__cardText {
+    gap: 12px;
+
+    p {
+      font-size: 12px;
+    }
+  }
+}
+
+
+@media (max-width: 740px) {
+  .speakers__card {
+    gap: 12px;
+
+  
+  }
+
+  .speakers__cardContainer {
+    gap: 22px;
+  }
+
+
+}

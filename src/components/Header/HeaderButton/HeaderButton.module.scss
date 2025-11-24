@@ -48,3 +48,18 @@ align-items: center;
     transform-origin: center center;
   }
 }
+
+@media (max-width: 960px) {
+  .nav__button {
+    transform: scale(0.6);
+    transform-origin: center center;
+  }
+}
+
+
+@media (max-width: 740px) {
+  .nav__button {
+    transform: scale(0.5);
+    transform-origin: center center;
+  }
+}

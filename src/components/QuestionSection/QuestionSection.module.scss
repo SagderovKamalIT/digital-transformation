@@ -218,3 +218,70 @@
   }
 }
 
+
+@media (max-width: 960px) {
+  .question {
+    padding: 55px 0 55px 0;
+
+    &::after {
+      width: clamp(60px, 23vw, 200px);
+      height: clamp(90px, 28vh, 320px);
+    }
+
+    &::before {
+      bottom: -27%;
+      width: 1100px;
+      height: 450px;
+    }
+  }
+
+  .question__container {
+    gap: 30px;
+    font-size: 16px;
+  }
+
+  .question__link {
+    font-size: 16px;
+    padding: 20px 25px;
+  }
+
+  .question__containerCard {
+    span {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 740px) {
+  .question {
+    padding: 45px 0 45px 0;
+
+    &::after {
+      width: clamp(50px, 17vw, 130px);
+      height: clamp(80px, 22vh, 200px);
+    }
+
+    &::before {
+      bottom: -30%;
+      width: 900px;
+      height: 380px;
+    }
+  }
+
+  .question__container {
+    gap: 25px;
+    font-size: 14px;
+  }
+
+  .question__link {
+    font-size: 14px;
+    padding: 16px;
+  }
+
+  .question__containerCard {
+    span {
+      font-size: 14px;
+    }
+  }
+}
+

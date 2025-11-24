@@ -86,3 +86,50 @@
   }
 
 }
+
+@media (max-width: 960px) {
+
+  .large {
+    height: 70px;
+
+    .label {
+      font-size: 24px;
+      padding: 24px 50px;
+    }
+  }
+
+  .small {
+    .label {
+      font-size: 14px;
+      padding: 12px 28px;
+    }
+  }
+
+  .buttonText {
+    font-size: 16px;
+  }
+
+}
+
+
+@media (max-width: 740px) {
+  .large {
+    height: 60px;
+
+    .label {
+      font-size: 20px;
+      padding: 20px 40px;
+    }
+  }
+
+  .small {
+    .label {
+      font-size: 12px;
+      padding: 10px 24px;
+    }
+  }
+
+  .buttonText {
+    font-size: 14px;
+  }
+}

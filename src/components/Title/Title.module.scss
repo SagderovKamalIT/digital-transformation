@@ -34,3 +34,10 @@
     padding-left: clamp(1vw, 2.5%, 2.5vw);
   }
 }
+
+@media (max-width: 960px) {
+  .title {
+    font-size: 32px;
+    padding-left: clamp(1vw, 2%, 2vw);
+  }
+}
