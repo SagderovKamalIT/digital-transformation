@@ -16,20 +16,18 @@
     background: url(../../assets/images/hero__abtsractLeft.png) no-repeat;
     background-position: left;
     background-size: contain;
-    z-index:-1;
+    z-index: -1;
     animation: floatUpDown 3s ease-in-out infinite alternate;
-
-    
   }
 
   @keyframes floatUpDown {
-  0% {
-    transform: translateY(0);
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(30px);
+    }
   }
-  100% {
-    transform: translateY(30px); 
-  }
-}
 
   &::before {
     content: "";
@@ -47,20 +45,20 @@
     animation: floatUpDown 4s ease-in-out infinite alternate;
   }
 
-    @keyframes floatUpDown {
-  0% {
-    transform: translateY(0);
+  @keyframes floatUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(40px);
+    }
   }
-  100% {
-    transform: translateY(40px); 
-  }
-}
 }
 
-.hero__shadow  {
+.hero__shadow {
   position: relative;
 
-    &::after {
+  &::after {
     content: "";
     position: absolute;
     top: 11%;
@@ -68,14 +66,15 @@
     width: 532px;
     height: 828px;
 
-    background: url(../../assets/images/HeroSection/heroShadowLeft.svg) no-repeat;
+    background: url(../../assets/images/HeroSection/heroShadowLeft.svg)
+      no-repeat;
     background-position: left;
     background-size: contain;
-    z-index:-2;
+    z-index: -2;
     rotate: 160deg;
   }
 
-&::before {
+  &::before {
     content: "";
     position: absolute;
     top: -7%;
@@ -83,7 +82,8 @@
     width: 921px;
     height: 938px;
 
-    background: url(../../assets/images/HeroSection/heroShadowRight.svg) no-repeat;
+    background: url(../../assets/images/HeroSection/heroShadowRight.svg)
+      no-repeat;
     background-position: right;
     background-size: contain;
     z-index: -2;
@@ -93,24 +93,22 @@
 .hero__ExtraShadow {
   position: relative;
 
-  
-    &::after {
+  &::after {
     content: "";
     position: absolute;
-    bottom: 50%;
-     left: 50%;              
-  transform: translateX(-50%);
-    transform: translateY(-50%);
-    width: 1911px;
-    height: 931px;
+    bottom: -13%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 1730px;
+    height: 898px;
 
-    background: url(../../assets/images/HeroSection/heroShadowCenter.svg) no-repeat;
+    background: url(../../assets/images/HeroSection/heroShadowCenter.svg)
+      no-repeat;
     background-position: center;
     background-size: contain;
-    z-index:-2;
+    z-index: -2;
   }
 }
-
 
 .hero__container {
   padding: 122px 0 143px 0;
@@ -125,9 +123,6 @@
   flex-direction: row;
   gap: 15px;
   align-items: flex-start;
-  
-
-  
 }
 
 .hero__infoBtn1,
@@ -189,9 +184,8 @@
   margin-right: 120px;
   transition: color 0.4s ease;
 
-   &:hover {
-      color: lighten($blue-zodiac, 30%);
-    
+  &:hover {
+    color: lighten($blue-zodiac, 30%);
   }
 
   @include btn(
@@ -235,8 +229,264 @@
 
   box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.25);
 
-    &:active {
-  transform: none;
-  box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.25); 
+  &:active {
+    transform: none;
+    box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.25);
+  }
 }
+
+@media (max-width: 1620px) {
+  .hero {
+    &::after {
+      top: 20%;
+      left: 0;
+      width: 919px;
+      height: 920px;
+    }
+
+    &::before {
+      width: 721px;
+      height: 738px;
+    }
+  }
+
+  
+.hero__shadow {
+
+  &::after {
+    width: 432px;
+    height: 728px;
+  }
+
+  &::before {
+    width: 721px;
+    height: 738px;
+
+  }
+}
+
+.hero__ExtraShadow {
+  &::after {
+    width: 1530px;
+    height: 698px;
+  }
+}
+
+
+  .hero__container {
+    padding: 80px 0 100px 0;
+    gap: 80px;
+  }
+
+  .hero__main {
+    gap: 20px;
+
+    &Paragraph {
+      font-size: 30px;
+    }
+  }
+
+  .hero__mainTitle {
+    font-size: 79px;
+  }
+
+  .hero__mainText {
+    font-size: 28px;
+  }
+
+  .hero__mainButton {
+    margin-right: 80px;
+
+    @include btn(
+      linear-gradient(180deg, #fff 6.46%, #cfd7ff 100%),
+      $blue-zodiac,
+      22px,
+      29.85px,
+      77.27px,
+      29.85px,
+      77.27px,
+      63px
+    );
+  }
+}
+
+@media (max-width: 1410px) {
+
+  .hero {
+    &::after {
+      width: 780px;
+      height: 780px;
+      top: 18%;
+    }
+
+    &::before {
+      width: 610px;
+      height: 620px;
+    }
+  }
+
+  .hero__shadow {
+    &::after {
+      width: 380px;
+      height: 680px;
+    }
+
+    &::before {
+      width: 610px;
+      height: 620px;
+    }
+  }
+
+  .hero__ExtraShadow {
+    &::after {
+      width: 1300px;
+      height: 610px;
+    }
+  }
+
+  .hero__container {
+    padding: 70px 0 85px 0;
+    gap: 70px;
+  }
+
+  .hero__infoBtn1,
+  .hero__infoBtn2 {
+    font-size: 28px;
+    padding: 30px 64px;
+  }
+
+  .hero__main {
+    gap: 18px;
+
+    &Paragraph {
+      font-size: 26px;
+    }
+  }
+
+  .hero__mainContainer {
+    gap: 40px;
+  }
+
+  .hero__mainTitle {
+    font-size: 70px;
+  }
+
+  .hero__mainText {
+    font-size: 26px;
+  }
+
+  .hero__mainButton {
+    margin-right: 60px;
+
+    @include btn(
+      linear-gradient(180deg, #fff 6.46%, #cfd7ff 100%),
+      $blue-zodiac,
+      20px,
+      26px,
+      70px,
+      26px,
+      70px,
+      56px
+    );
+  }
+}
+
+@media (max-width: 1180px) {
+  .hero {
+    &::after {
+      width: 650px;
+      height: 650px;
+      top: 21%;
+    }
+
+      @keyframes floatUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(20px);
+    }
+  }
+
+    &::before {
+      width: 520px;
+      height: 530px;
+    }
+
+     @keyframes floatUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(30px);
+    }
+  }
+
+    
+  }
+
+  .hero__shadow {
+    &::after {
+      width: 320px;
+      height: 580px;
+    }
+
+    &::before {
+      width: 520px;
+      height: 530px;
+    }
+  }
+
+  .hero__ExtraShadow {
+    &::after {
+      width: 1100px;
+      height: 460px;
+    }
+  }
+
+  .hero__container {
+    padding: 60px 0 70px 0;
+    gap: 60px;
+  }
+
+  .hero__infoBtn1,
+  .hero__infoBtn2 {
+    font-size: 24px;
+    padding: 25px 55px;
+  }
+
+  .hero__main {
+    gap: 15px;
+
+    &Paragraph {
+      font-size: 22px;
+    }
+  }
+
+  .hero__mainContainer {
+    gap: 30px;
+  }
+
+  .hero__mainTitle {
+    font-size: 60px;
+  }
+
+  .hero__mainText {
+    font-size: 22px;
+  }
+
+  .hero__mainButton {
+    margin-right: 40px;
+
+    @include btn(
+      linear-gradient(180deg, #fff 6.46%, #cfd7ff 100%),
+      $blue-zodiac,
+      18px,
+      22px,
+      60px,
+      22px,
+      60px,
+      50px
+    );
+  }
 }

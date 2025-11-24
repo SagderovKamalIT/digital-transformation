@@ -47,3 +47,68 @@ transition: color 0.4s ease;
 font-size: 25px;
   }
 }
+
+@media (max-width: 1620px) {
+  
+.footer {
+  padding: 68px 104px;
+
+  
+  &__container {
+    gap: 50px;
+
+  }
+}
+}
+
+@media (max-width: 1410px) {
+  .footer {
+    padding: 58px 90px;
+
+    &__container {
+      gap: 40px;
+
+      &Span {
+        max-width: 1000px;
+      }
+    }
+  }
+
+  .footer__text {
+    gap: 30px;
+
+    &Link {
+      font-size: 20px;
+    }
+
+    &Paragraph {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 1180px) {
+  .footer {
+    padding: 50px 40px;
+
+    &__container {
+      gap: 30px;
+
+      &Span {
+        max-width: 100%;
+      }
+    }
+
+    &__text {
+      gap: 25px;
+
+      &Link {
+        font-size: 18px;
+      }
+
+      &Paragraph {
+        font-size: 18px;
+      }
+    }
+  }
+}

@@ -36,3 +36,35 @@
   z-index: 1;
   color: white;
 }
+
+
+@media (max-width: 1620px) {
+  .cardContent {
+  padding: 104px 45px;
+
+}
+
+}
+
+@media (max-width: 1410px) {
+  .cardContent {
+    padding: 80px 35px;
+  }
+
+  .card::after {
+    right: -3px;
+    width: 6px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .cardContent {
+    padding: 60px 25px;
+  }
+
+  .card::after {
+    right: -2px;
+    width: 4px;
+  }
+}
+

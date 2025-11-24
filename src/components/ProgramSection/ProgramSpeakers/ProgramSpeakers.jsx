@@ -10,6 +10,7 @@ import konstantin from '../../../assets/images/ProgramSpeakers/Констант�
 import gerneshiy from '../../../assets/images/ProgramSpeakers/Гернешний_Василий.png';
 import goryanov from '../../../assets/images/ProgramSpeakers/Горянов_Константин.png';
 import gerneshiyV from '../../../assets/images/ProgramSpeakers/Гернеший_ВасилийВ.png';
+import krasnorutskaya from '../../../assets/images/ProgramSpeakers/krasnorutskaya.png';
 
 
 export const speakersData  = [
@@ -17,7 +18,8 @@ export const speakersData  = [
   { name: "Квашин Александр Дмитриевич", src: kvashin, alt: "Квашин Александр", text: ["Директор по цифровизации", "Кандидат экономических наук"] },
   { name: "Островская Анна Александровна", src: ostrovskaya, alt: "Островская Анна", text: ["Директор Высшей школы управления РУДН", "зав. кафедрой\n прикладной экономики ВШУ", "Кандидат экономических наук"] },
   { name: "Волков Илья Владимирович", src: volkov, alt: "Волков Владимир", text: ["Эксперт в области маркетинга \nи цифровых коммуникаций", "Исполнительный директор Points Lab"] },
-  { name: "Кислов Алексей Сергеевич", src: kislov, alt: "Кислов Алексей", text: ["Директор департамента развития практики ERP, 1C"] }
+  { name: "Кислов Алексей Сергеевич", src: kislov, alt: "Кислов Алексей", text: ["Директор департамента развития практики ERP, 1C"] },
+  { name: "Красноруцкая Милена Владимировна", src: krasnorutskaya, alt: "Красноруцкая Милена Владимировна", text: ["Операционный директор ООО “Пуск” "] }
 ];
 
 export const speakersDataPart2 = [

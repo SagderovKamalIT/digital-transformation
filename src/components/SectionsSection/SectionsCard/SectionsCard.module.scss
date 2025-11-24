@@ -1,35 +1,28 @@
-.card {
-  position: relative;
-  width: 100%;
-   height: 158px;
-  max-width: 1382px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: flex-start;  
-  align-items: center;       
-  background: none;
+@use "../../../styles/core" as *;
+@use "../../../styles/variables" as *;
+@use "../../../styles/mixins" as *;
 
-  .cardSvg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-  }
+.card {
+  background: url(../../../assets/images/SectionsSection//sectionsBackground.svg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 48px;
+  overflow: hidden;
+  display: inline-block;
+  font-family: inherit;
+  height: 100%;
+  min-height: 158px;
+  width: 100%;
+  display: flex;
+  align-items: center;
 
   .cardContent {
     position: relative;
     z-index: 1;
-    padding: 20px; 
+    padding: 20px;
     color: white;
-    text-align: start;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
   }
 }
-
 
 .section__listCard:nth-child(2n) .cardSvg {
   transform: rotate(180deg);
@@ -38,3 +31,35 @@
 .flipped .cardSvg {
   transform: rotate(180deg);
 }
+
+
+@media (max-width: 1620px) {
+
+  .card {
+
+    .cardContent {
+      padding: 30px;
+    }
+  }
+}
+
+@media (max-width: 1410px) {
+  .card {
+    min-height: 145px;
+
+    .cardContent {
+      padding: 25px;
+    }
+  }
+}
+
+@media (max-width: 1180px) {
+  .card {
+    min-height: 130px;
+
+    .cardContent {
+      padding: 20px;
+    }
+  }
+}
+

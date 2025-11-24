@@ -28,3 +28,35 @@
     color: $cloudy-blue;
   }
 }
+
+@media (max-width: 1620px) {
+  
+.navContent {
+ 
+  font-size: 28px;
+  
+}
+}
+
+@media (max-width: 1410px) {
+  .navContent {
+    font-size: 24px;
+    padding: 20px 16px;
+  }
+
+  .navCard {
+    border-radius: 36px;
+  }
+}
+
+
+@media (max-width: 1180px) {
+  .navContent {
+    font-size: 20px;
+    padding: 16px 12px;
+  }
+
+  .navCard {
+    border-radius: 28px;
+  }
+}

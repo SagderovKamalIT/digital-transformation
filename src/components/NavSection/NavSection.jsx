@@ -18,6 +18,7 @@ const NavSection = () => {
       <div className={styles.section__wrap}>
         <div className={styles.nav__container}>
           <a
+            className={styles.nav__containerLogo}
             href="https://www.rudn.ru/"
             target="_blank"
             rel="noopener noreferrer"

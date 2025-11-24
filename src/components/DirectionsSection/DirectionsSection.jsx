@@ -51,40 +51,34 @@ const DirectionsSection = () => {
   ];
 
   return (
+    <div className={styles.direction}>
+      <div className={styles.direction__shadow}>
+        <div className={styles.section__wrap}>
+          <div className={styles.direction__container}>
+            <Title>ФОКУСНЫЕ НАПРАВЛЕНЯ КОНФЕРЕНЦИИ</Title>
 
-    <div className={styles.direction} >
+            <ul className={styles.direction__list}>
+              {data.map((item, index) => (
+                <li key={index} className={styles.direction__listItem}>
+                  <DirectionSectionCard
+                    text={item.text}
+                    paragraph={item.paragraph}
+                  />
+                </li>
+              ))}
+            </ul>
 
-      <div className={styles.direction__shadow} >
-
-    <div className={styles.section__wrap}>
-      <div className={styles.direction__container}>
-        <Title>ФОКУСНЫЕ НАПРАВЛЕНЯ КОНФЕРЕНЦИИ</Title>
-
-        <ul className={styles.direction__list}>
-          {data.map((item, index) => (
-            <li key={index} className={styles.direction__listItem}>
-              <DirectionSectionCard
-                text={item.text}
-                paragraph={item.paragraph}
+            <div className={styles.direction__cardSmall}>
+              <DirectionSectionSmallCard
+                text="ТРЕБОВАНИЯ К ПУБЛИКАЦИЯМ"
+                underline="Срок подачи 14 ноября"
               />
-            </li>
-          ))}
-        </ul>
 
-               <div className={styles.direction__cardSmall} >
-
-        <DirectionSectionSmallCard
-          text="ТРЕБОВАНИЯ К ПУБЛИКАЦИЯМ"
-          underline="Срок подачи 14 ноября"
-        />
-
-        <p>Сборник материалов конференции будет размещен в РИНЦ</p>
-               </div>
-
+              <p>Сборник материалов конференции будет размещен в РИНЦ</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-      </div>
-      
     </div>
   );
 };

@@ -6,7 +6,7 @@
 .direction {
   position: relative;
 
-   &::after {
+  &::after {
     content: "";
     position: absolute;
     top: 20%;
@@ -14,30 +14,28 @@
     width: 1119px;
     height: 1120px;
 
-    background: url(../../assets/images/DirectionSection/directionLeftShadow.svg) no-repeat;
+    background: url(../../assets/images/DirectionSection/directionLeftShadow.svg)
+      no-repeat;
     background-position: left;
     background-size: contain;
-    z-index:1;
+    z-index: 1;
     animation: floatUpDown 3s ease-in-out infinite alternate;
-
-    
   }
 
   @keyframes floatUpDown {
-  0% {
-    transform: translateY(0);
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(30px);
+    }
   }
-  100% {
-    transform: translateY(30px); 
-  }
-}
-
 }
 
 .direction__shadow {
   position: relative;
 
-    &::after {
+  &::after {
     content: "";
     position: absolute;
     top: 19%;
@@ -45,10 +43,11 @@
     width: 532px;
     height: 828px;
 
-    background: url(../../assets/images/HeroSection/heroShadowLeft.svg) no-repeat;
+    background: url(../../assets/images/HeroSection/heroShadowLeft.svg)
+      no-repeat;
     background-position: left;
     background-size: contain;
-    z-index:-2;
+    z-index: -2;
     rotate: 160deg;
   }
 }
@@ -73,8 +72,103 @@
   p {
     font-family: "G8-c", sans-serif;
     font-weight: 700;
-font-size: 36px;
-line-height: 96%;
-margin: 0 auto;
+    font-size: 36px;
+    line-height: 96%;
+    margin: 0 auto;
   }
 }
+
+@media (max-width: 1620px) {
+  .direction {
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 20%;
+      left: -2%;
+      width: 819px;
+      height: 820px;
+    }
+  }
+
+  
+.direction__shadow {
+  position: relative;
+
+  &::after {
+   
+    top: 13%;
+    width: 432px;
+    height: 728px;
+
+  
+  }
+}
+
+  
+.direction__cardSmall {
+ 
+
+  p {
+
+    font-size: 32px;
+    
+  }
+}
+}
+
+
+@media (max-width: 1410px) {
+  .direction {
+    &::after {
+      width: 720px;
+      height: 720px;
+      left: -3%;
+    }
+  }
+
+  .direction__container {
+    gap: 65px;
+  }
+
+  .direction__list {
+    gap: 28px;
+  }
+
+  .direction__cardSmall {
+    gap: 32px;
+
+    p {
+      font-size: 30px;
+    }
+  }
+}
+
+@media (max-width: 1180px) {
+  .direction {
+    &::after {
+      width: 620px;
+      height: 620px;
+      left: -4%;
+    }
+  }
+
+  .direction__container {
+    gap: 55px;
+  }
+
+  .direction__list {
+    gap: 24px;
+  }
+
+  .direction__cardSmall {
+    gap: 28px;
+
+    p {
+      font-size: 26px;
+    }
+  }
+}
+
+

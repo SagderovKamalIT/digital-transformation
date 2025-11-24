@@ -23,3 +23,15 @@
   color: white;
 }
 
+
+@media (max-width: 1410px) {
+  .cardContent {
+    padding: 40px 50px 60px 50px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .cardContent {
+    padding: 30px 35px 45px 35px;
+  }
+}

@@ -62,3 +62,20 @@ h2,
 h3 {
   color: $white;
 }
+
+
+@media (max-width: 1620px) {
+  .section__wrap {
+     padding: 0 9vw;
+  }
+}
+
+@media (max-width: 1410px) {
+  .wrap {
+    padding: 0 6vw;
+  }
+
+  .section__wrap {
+    padding: 0 8vw;
+  }
+}

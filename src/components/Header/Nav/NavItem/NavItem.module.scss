@@ -15,5 +15,24 @@
 
   }
 
+@media (max-width: 1620px) {
+  .nav__element {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1410px) {
+  .nav__element {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .nav__element {
+    font-size: 24px;
+  }
+}
+
+
 
 

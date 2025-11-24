@@ -23,3 +23,38 @@
   font-size: 32px;
   
 }
+
+@media (max-width: 1620px) {
+  .heroContentBig {
+    font-size: 25px; 
+  
+  }
+}
+
+@media (max-width: 1410px) {
+
+  .heroCardBig {
+    border-radius: 40px;      
+    background-size: cover;     
+  }
+
+  .heroContentBig {
+    padding: 32px 70px;       
+    font-size: 22px;          
+  }
+
+}
+
+@media (max-width: 1180px) {
+
+  .heroCardBig {
+    border-radius: 35px;
+    background-size: cover;
+  }
+
+  .heroContentBig {
+    padding: 25px 50px;
+    font-size: 20px;
+  }
+
+}

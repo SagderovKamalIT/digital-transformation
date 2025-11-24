@@ -7,3 +7,22 @@
     height: auto;
   }
 }
+
+@media (max-width: 1620px) {
+  .header__logo {
+     transform: scale(0.9);
+  }
+}
+
+@media (max-width: 1410px) {
+  .header__logo {
+     transform: scale(0.8);
+  }
+}
+
+@media (max-width: 1180px) {
+  .header__logo {
+    transform: scale(0.7);
+  }
+}
+

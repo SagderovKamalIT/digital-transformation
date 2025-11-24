@@ -27,3 +27,40 @@
     text-align: center;
   }
 }
+
+@media (max-width: 1410px) {
+  .adress__container {
+    gap: 24px;
+  }
+
+  .adress__link {
+    gap: 50px;
+
+    &Text {
+      font-size: 28px;
+    }
+  }
+
+  .adress__title {
+    font-size: 28px;
+  }
+}
+
+
+@media (max-width: 1180px) {
+  .adress__container {
+    gap: 20px;
+  }
+
+  .adress__link {
+    gap: 40px;
+
+    &Text {
+      font-size: 24px;
+    }
+  }
+
+  .adress__title {
+    font-size: 24px;
+  }
+}

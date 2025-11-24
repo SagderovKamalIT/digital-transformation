@@ -2,10 +2,47 @@
 @use "../../../styles/variables" as *;
 @use "../../../styles/mixins" as *;
 
-.buttonText {
+.button {
+  background-image: url(../../../assets/images/ProgramSection/programButtonBackground.svg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 48px;
+  overflow: hidden;
+  display: inline-block;
+  font-family: inherit;
+   max-width: 404px;
+  width: 100%;
+}
+.buttonContent {
   font-family: "Geist-c", sans-serif;
   font-weight: 900;
   font-size: 24px;
+  text-align: center;
+  z-index: 1;
+
+  padding: 35px 27px;
   color: white;
-  pointer-events: none;
 }
+
+
+@media (max-width: 1620px) {
+  .buttonContent {
+  font-size: 20px;
+  padding: 40px 24px;
+}
+}
+
+@media (max-width: 1410px) {
+  .buttonContent {
+    font-size: 18px;
+    padding: 35px 20px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .buttonContent {
+    font-size: 16px;
+    padding: 30px 18px;
+  }
+}
+

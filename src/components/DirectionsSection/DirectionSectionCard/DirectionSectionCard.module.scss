@@ -23,3 +23,27 @@
     font-weight: 400;
   }
 }
+
+@media (max-width: 1410px) {
+  .card {
+    padding: 60px 50px;
+    gap: 26px;
+
+    &__title,
+    &__paragraph {
+      font-size: 28px;
+    }
+  }
+}
+
+@media (max-width: 1180px) {
+  .card {
+    padding: 50px 40px;
+    gap: 22px;
+
+    &__title,
+    &__paragraph {
+      font-size: 24px;
+    }
+  }
+}

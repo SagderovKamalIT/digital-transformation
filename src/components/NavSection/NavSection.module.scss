@@ -11,7 +11,6 @@
     flex-direction: column;
     gap: 78px;
     align-items: center;
-
   }
 }
 
@@ -24,21 +23,67 @@
   &Registration {
     font-family: "Geist-c", sans-serif;
     font-weight: 900;
-font-size: 24px;
-color: $blue-zodiac;
-background: linear-gradient(180deg, #fff 6.46%, #cfd7ff 100%);
-opacity: 0.99;
+    font-size: 24px;
+    color: $blue-zodiac;
+    background: linear-gradient(180deg, #fff 6.46%, #cfd7ff 100%);
+    opacity: 0.99;
     padding: 23px 20px;
     border-radius: 48px;
     width: 457px;
-    transition: color 0.4s ease; 
+    transition: color 0.4s ease;
 
-    
-  &:hover {
+    &:hover {
       color: lighten($blue-zodiac, 30%);
+    }
+  }
+}
+
+@media (max-width: 1620px) {
+
+  
+.nav__links {
+
+
+  &Registration {
+  
+    font-size: 20px;
+   
+  }
+}
+}
+
+@media (max-width: 1410px) {
+  .nav__links {
+    gap: 25px;
+
+    &Registration {
+      font-size: 18px;
+      width: 400px;
+      padding: 20px 16px;
+    }
   }
 
+  .nav__container {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .nav__links {
+    gap: 20px;
+
+    &Registration {
+      width: 300px;
+      font-size: 16px;
+      padding: 16px 12px;
+    }
   }
 
- 
+  .nav__container {
+    gap: 40px;
+
+    &Logo {
+      transform: scale(0.8);
+    }
+  }
 }

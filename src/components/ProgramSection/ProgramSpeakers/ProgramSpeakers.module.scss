@@ -7,5 +7,25 @@
 grid-template-columns: repeat(2, 1fr);
 column-gap: 65px;
 row-gap: 30px;
+align-items: center;
 }
+
+
+@media (max-width: 1410px) {
+  .speakers__list {
+    column-gap: 40px;
+    row-gap: 25px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .speakers__list {
+    grid-template-columns: 1fr;
+    column-gap: 25px;
+    row-gap: 20px;
+
+    
+  }
+}
+
 

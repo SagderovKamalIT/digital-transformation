@@ -3,3 +3,28 @@
 width: 179px;
 height: 178px;
 }
+
+@media (max-width: 1620px) {
+  .speakers__img {
+  border-radius: 126px;
+width: 169px;
+height: 168px;
+}
+}
+
+@media (max-width: 1410px) {
+  .speakers__img {
+    width: 159px;
+    height: 158px;
+    border-radius: 120px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .speakers__img {
+    width: 145px;
+    height: 144px;
+    border-radius: 108px;
+  }
+}
+

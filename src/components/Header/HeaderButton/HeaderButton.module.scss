@@ -26,3 +26,25 @@ align-items: center;
   }
 
 }
+
+  @media (max-width: 1620px) {
+  .nav__button {
+    transform: scale(0.9);        
+    transform-origin: center center;
+  }
+}
+
+
+@media (max-width: 1410px) {
+  .nav__button {
+    transform: scale(0.8);
+    transform-origin: center center;
+  }
+}
+
+@media (max-width: 1180px) {
+  .nav__button {
+    transform: scale(0.7);
+    transform-origin: center center;
+  }
+}

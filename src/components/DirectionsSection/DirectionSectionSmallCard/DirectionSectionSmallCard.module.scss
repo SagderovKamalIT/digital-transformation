@@ -33,8 +33,65 @@
     color: $blue-zodiac;
   }
 
-  button {
+}
+
+ .card__Button {
     border: none;
     background: none;
+  }
+
+.card__UnderlineButton {
+    &:hover {
+      color: lighten($blue-zodiac, 30%);
+    }
+  }
+
+@media (max-width: 1620px) {
+  .card {
+    &__title {
+      font-size: 28px;
+    }
+  }
+
+  .card__Underline {
+    &Text {
+      font-size: 28px;
+    }
+  }
+}
+
+@media (max-width: 1410px) {
+  .card {
+    padding: 24px 35px;
+
+    &__title {
+      font-size: 26px;
+    }
+  }
+
+  .card__Underline {
+    gap: 20px;
+
+    &Text {
+      font-size: 26px;
+    }
+  }
+}
+
+@media (max-width: 1180px) {
+  .card {
+    padding: 20px 28px;
+
+    &__title {
+      font-size: 22px;
+    }
+  }
+
+  .card__Underline {
+    gap: 16px;
+
+    &Text {
+      font-size: 22px;
+    }
   }
 }

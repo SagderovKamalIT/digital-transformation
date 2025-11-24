@@ -7,3 +7,24 @@
   padding-top: 75px;
   align-items: center;
 }
+
+@media (max-width: 1620px) {
+  .header__container {
+
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 1410px) {
+  .header__container {
+    padding-top: 50px;        
+    gap: 20px;               
+  }
+}
+@media (max-width: 1180px) {
+  .header__container {
+    padding-top: 40px;
+    gap: 15px;
+    align-items: center;
+  }
+}
