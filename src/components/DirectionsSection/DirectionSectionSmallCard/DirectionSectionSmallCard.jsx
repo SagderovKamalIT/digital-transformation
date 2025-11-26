@@ -7,7 +7,9 @@ const DirectionSectionSmallCard = ({ text, underline }) => {
       <h4 className={styles.card__title}>{text}</h4>
 
       <div className={styles.card__Underline}>
-        <p className={styles.card__UnderlineText}>{underline}</p>
+        <a  href="/Образец оформления статьи.docx"
+          target="_blank"
+          rel="noopener noreferrer" className={styles.card__UnderlineText}>{underline}</a>
 
         <a
           className={styles.card__Button}

@@ -31,6 +31,10 @@
     font-size: 32px;
     text-decoration: underline;
     color: $blue-zodiac;
+     &:hover {
+    color: lighten($blue-zodiac, 10%);
+  }
+  transition: color 0.2s ease;
   }
 
 }
@@ -149,4 +153,33 @@
     height: 30px;
   }
 }
+
+
+@media (max-width: 540px) {
+  .card {
+    padding: 12px 12px 12px 25px;
+    gap: 8px;
+    border-radius: 42px;
+
+    &__title {
+      font-size: 10px;
+    }
+  }
+
+  .card__Underline {
+    gap: 7px;
+
+    &Text {
+      font-size: 10px;
+    }
+
+    
+  }
+
+  .card__UnderlineButton {
+    width: 15px;
+    height: 15px;
+  }
+}
+
 

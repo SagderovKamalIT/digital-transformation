@@ -90,3 +90,34 @@
   }
 
 }
+
+@media (max-width: 620px) {
+  .heroCard {
+    border-radius: 20px;
+    background-size: cover;
+  }
+
+  .heroContent {
+    padding: 15px 22px;
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .heroCard {
+  background-image: url("../../../assets/images/HeroSection/hero__titleMobile.svg");
+  border-radius: 56px;
+  
+}
+
+
+.heroContent {
+  position: relative;
+  padding: 10px 17px;
+  font-weight: 400;
+  font-size: 8px;
+  
+}
+
+}

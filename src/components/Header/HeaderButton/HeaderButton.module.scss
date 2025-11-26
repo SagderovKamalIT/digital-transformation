@@ -63,3 +63,34 @@ align-items: center;
     transform-origin: center center;
   }
 }
+
+
+@media (max-width: 620px) {
+.nav__button {
+transform: scale(0.45);
+transform-origin: center center;
+}
+}
+
+
+@media (max-width: 540px) {
+.nav__button {
+  transform: none;
+  background: url(../../../assets/images/HeaderSection/nav__btnMobile.svg);
+  width: 22px;
+  height: 22px;
+
+  &::before {
+    background: none;
+  }
+
+  svg {
+    display: none;
+
+  }
+
+  path {
+     display: none;
+  }
+}
+}

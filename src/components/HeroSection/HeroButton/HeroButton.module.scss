@@ -133,3 +133,26 @@
     font-size: 14px;
   }
 }
+
+
+@media (max-width: 620px) {
+  .large {
+    height: 50px;
+
+    .label {
+      font-size: 18px;
+      padding: 16px 32px;
+    }
+  }
+
+  .small {
+    .label {
+      font-size: 10px;
+      padding: 8px 20px;
+    }
+  }
+
+  .buttonText {
+    font-size: 12px;
+  }
+}

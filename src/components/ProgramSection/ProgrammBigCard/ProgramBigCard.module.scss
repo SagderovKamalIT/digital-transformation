@@ -56,3 +56,15 @@
     gap: 12px;
   }
 }
+
+@media (max-width: 540px) {
+  .card {
+    border-radius: 12px;
+  }
+
+  .cardContent {
+    padding: 14px 15px;
+    gap: 10px;
+  }
+}
+

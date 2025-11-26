@@ -88,3 +88,32 @@
 
 }
 
+
+@media (max-width: 620px) {
+  .heroCardBig {
+    border-radius: 20px;
+    background-size: cover;
+  }
+
+  .heroContentBig {
+    padding: 15px 22px;
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .heroCardBig {
+  background-image: url("../../../assets/images/HeroSection/hero__titleBigMobile.svg");
+  border-radius: 56px;
+
+}
+
+.heroContentBig {
+  padding: 10px 17px;
+  font-weight: 400;
+  font-size: 8px;
+  
+}  
+
+}

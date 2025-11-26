@@ -3,6 +3,8 @@ import Title from "../Title/Title";
 import DirectionSectionCard from "./DirectionSectionCard/DirectionSectionCard";
 import DirectionSectionSmallCard from "./DirectionSectionSmallCard/DirectionSectionSmallCard";
 
+import topicItem from "../../assets/images/DirectionSection/topicItem.svg";
+
 const DirectionsSection = () => {
   const data = [
     {
@@ -20,17 +22,34 @@ const DirectionsSection = () => {
     {
       text: "КЛЮЧЕВЫЕ ТЕМЫ КОНФЕРЕНЦИИ",
       paragraph: (
-        <>
-          Цифровые платформы и экосистемы: тенденции и перспективы развития.{" "}
-          <br />
-          Цифровые продуктовые решения для бизнеса. <br />
-          Цифровые технологии для управления гостиничным бизнесом. <br />
-          Цифровые модели и инструменты управления ресторанным бизнесом. <br />
-          Современные подходы к развитию туристической индустрии в цифровую
-          эпоху. <br />
-          Управление промышленным производством с применением VR и ИИ: новые
-          горизонты.
-        </>
+        <div className={styles.topicContaier}>
+          <div className={styles.topicItem}>
+            <img src={topicItem} alt="иконка" className={styles.topicIcon} />
+            Цифровые платформы и экосистемы: тенденции и перспективы развития.
+          </div>
+          <div className={styles.topicItem}>
+            <img src={topicItem} alt="иконка" className={styles.topicIcon} />
+            Цифровые продуктовые решения для бизнеса.
+          </div>
+          <div className={styles.topicItem}>
+            <img src={topicItem} alt="иконка" className={styles.topicIcon} />
+            Цифровые технологии для управления гостиничным бизнесом.
+          </div>
+          <div className={styles.topicItem}>
+            <img src={topicItem} alt="иконка" className={styles.topicIcon} />
+            Цифровые модели и инструменты управления ресторанным бизнесом.
+          </div>
+          <div className={styles.topicItem}>
+            <img src={topicItem} alt="иконка" className={styles.topicIcon} />
+            Современные подходы к развитию туристической индустрии в цифровую
+            эпоху.
+          </div>
+          <div className={styles.topicItem}>
+            <img src={topicItem} alt="иконка" className={styles.topicIcon} />
+            Управление промышленным производством с применением VR и ИИ: новые
+            горизонты.
+          </div>
+        </div>
       ),
     },
     {
@@ -55,7 +74,7 @@ const DirectionsSection = () => {
       <div className={styles.direction__shadow}>
         <div className={styles.section__wrap}>
           <div className={styles.direction__container}>
-            <Title>ФОКУСНЫЕ НАПРАВЛЕНЯ КОНФЕРЕНЦИИ</Title>
+            <Title className={styles.direction__title} >ФОКУСНЫЕ НАПРАВЛЕНЯ КОНФЕРЕНЦИИ</Title>
 
             <ul className={styles.direction__list}>
               {data.map((item, index) => (

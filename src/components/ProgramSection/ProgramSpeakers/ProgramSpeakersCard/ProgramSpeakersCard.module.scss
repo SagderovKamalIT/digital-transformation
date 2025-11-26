@@ -135,3 +135,20 @@
 
 
 }
+
+@media (max-width: 540px) {
+   .speakers__card {
+    gap: 12px;
+
+  
+  }
+
+  .speakers__cardContainer {
+    gap: 24px;
+  }
+
+  .speakers__cardText  {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}

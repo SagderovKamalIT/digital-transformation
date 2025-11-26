@@ -102,3 +102,22 @@
     font-size: 24px;
   }
 }
+
+
+@media (max-width: 540px) {
+  .adress__container {
+    gap: 8px;
+  }
+
+  .adress__link {
+    gap: 9px;
+
+    &Text {
+      font-size: 10px;
+    }
+  }
+
+  .adress__title {
+    font-size: 14px;
+  }
+}

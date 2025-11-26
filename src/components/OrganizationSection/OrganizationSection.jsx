@@ -11,7 +11,7 @@ const OrganizationSection = () => {
               <h3>Организационный комитет:</h3>
               <ul className={styles.organization__list} >
                 <li className={styles.organization__listElement} >
-                  <strong>Председатель</strong>
+                  <strong >Председатель</strong>
                   <span className={styles.organization__listSpan} >директор ВШУ, к.э.н., доц.</span>
                   <p className={styles.organization__listParagraph} >Островская Анна Александровна</p>
                 </li>

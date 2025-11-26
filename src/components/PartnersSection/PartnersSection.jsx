@@ -16,9 +16,6 @@ import travelline from "../../assets/images/PartnersSection/travelline.png";
 
 const PartnersSection = () => {
   const partners1 = [
-    { src: sberPng, alt: "Сбер", className: styles.partner__img },
-    { src: yandex, alt: "Яндекс", className: styles.specialLogo },
-    { src: ozonTech, alt: "Ozon Tech", className: styles.partner__img },
     { src: C1, alt: "C1", className: styles.partner__img },
     { src: X5, alt: "X5", className: styles.partner__img },
   ];
@@ -32,7 +29,6 @@ const PartnersSection = () => {
 
   const partners3 = [
     { src: restorants, alt: "Restorants", className: styles.partner__img },
-    { src: analytic, alt: "Analytic", className: styles.partner__img },
     { src: travelline, alt: "Travelline", className: styles.specialLogo2 },
   ];
 

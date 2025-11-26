@@ -86,3 +86,16 @@
     }
   }
 }
+
+@media (max-width: 740px) {
+  .card {
+    min-height: 60px;
+    border-radius: 9px;
+
+    .cardContent {
+      padding: 10px;
+    }
+  }
+}
+
+

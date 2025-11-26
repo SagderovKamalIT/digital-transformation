@@ -115,3 +115,33 @@
     }
   }
 }
+
+
+
+@media (max-width: 740px) {
+
+  .nav {
+     padding-bottom: 20px;
+  }
+  
+  .nav__links {
+    gap: 8px;
+    width: 100%;
+    
+
+
+    &Registration {
+      width: 100%; 
+      font-size: 12px;
+       padding: 9.5px 10px;
+    }
+  }
+
+  .nav__container {
+    gap: 2px;
+
+    &Logo {
+      transform: scale(0.5);
+    }
+  }
+}

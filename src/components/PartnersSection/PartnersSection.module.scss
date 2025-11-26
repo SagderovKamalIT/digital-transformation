@@ -71,14 +71,14 @@
 
 
 .partners__item:nth-child(1) .partner__img {
-    max-height: clamp(60px, 8vh, 89px);
+    max-height: clamp(70px, 8vh, 120px);
     width: auto;
     display: block;
     object-fit: contain;
   }
 
   .partners__item:nth-child(2) .partner__img {
-    max-height: clamp(100px, 10vh, 130px);
+    max-height: clamp(130px, 10vh, 150px);
     width: auto;
     display: block;
     object-fit: contain;
@@ -86,7 +86,7 @@
   }
 
   .partners__item:nth-child(3) .partner__img {
-    max-height: clamp(80px, 10vh, 100px);
+    max-height: clamp(100px, 10vh, 130px);
     width: auto;
     display: block;
     object-fit: contain;
@@ -121,17 +121,17 @@
 }
 
     .partners__item:nth-child(1) .partner__img {
-    max-height: clamp(40px, 8vh, 69px);
+    max-height: clamp(80px, 8vh, 100px);
 
   }
 
   .partners__item:nth-child(2) .partner__img {
-    max-height: clamp(80px, 9vh, 110px);
+    max-height: clamp(100px, 9vh, 140px);
 
   }
 
   .partners__item:nth-child(3) .partner__img {
-    max-height: clamp(60px, 9vh, 80px);
+    max-height: clamp(80px, 9vh, 110px);
    
   }
   }
@@ -161,15 +161,15 @@
   }
 
   .partners__item:nth-child(1) .partner__img {
-    max-height: clamp(35px, 7vh, 60px);
+    max-height: clamp(60px, 7vh, 100px);
   }
 
   .partners__item:nth-child(2) .partner__img {
-    max-height: clamp(70px, 8vh, 95px);
+    max-height: clamp(100px, 8vh, 130px);
   }
 
   .partners__item:nth-child(3) .partner__img {
-    max-height: clamp(50px, 8vh, 70px);
+    max-height: clamp(60px, 8vh, 100px);
   }
 }
 
@@ -201,15 +201,15 @@
   }
 
   .partners__item:nth-child(1) .partner__img {
-    max-height: clamp(30px, 6vh, 50px);
+    max-height: clamp(50px, 6vh, 80px);
   }
 
   .partners__item:nth-child(2) .partner__img {
-    max-height: clamp(60px, 7vh, 80px);
+    max-height: clamp(70px, 7vh, 90px);
   }
 
   .partners__item:nth-child(3) .partner__img {
-    max-height: clamp(40px, 7vh, 60px);
+    max-height: clamp(70px, 7vh, 90px);
   }
 }
 
@@ -256,15 +256,15 @@
   }
 
   .partners__item:nth-child(1) .partner__img {
-    max-height: clamp(25px, 5vh, 40px);
+    max-height: clamp(55px, 5vh, 70px);
   }
 
   .partners__item:nth-child(2) .partner__img {
-    max-height: clamp(50px, 6vh, 65px);
+    max-height: clamp(60px, 6vh, 80px);
   }
 
   .partners__item:nth-child(3) .partner__img {
-    max-height: clamp(35px, 6vh, 50px);
+    max-height: clamp(55px, 6vh, 80px);
   }
 }
 
@@ -324,4 +324,32 @@
     text-align: center;
     padding-left: 0;
   }
+}
+
+
+
+@media (max-width: 540px) {
+  .section__wrap {
+    padding: 0 2vw;
+  }
+
+  .partners {
+    padding: 25px 0;
+
+     &__container  {
+      gap: 9px;
+     }
+  }
+
+  .partners__list {
+    gap: 10px;
+    padding: 20px 13px;
+    border-radius: 15px;
+
+    :nth-child(3) {
+      gap: 30px;
+    }
+  }
+
+ 
 }

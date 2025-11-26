@@ -68,3 +68,17 @@
     padding: 20px 12px;
   }
 }
+
+@media (max-width: 540px) {
+  .button {
+    background: url(../../../assets//images//ProgramSection/programButonBackgroundMobile.svg);
+    border-radius: 36px;
+    max-width: 191px;
+    background-repeat: no-repeat;
+  }
+
+  .buttonContent {
+    font-size: 10px;
+    padding: 10.5px 10px;
+  }
+}

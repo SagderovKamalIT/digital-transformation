@@ -285,3 +285,35 @@
   }
 }
 
+@media (max-width: 540px) {
+.question {
+    padding: 18px 0 25px 0;
+
+    &::after {
+      display: none;
+    }
+
+    &::before {
+      bottom: 90%;
+      width: 900px;
+      height: 380px;
+    }
+  }
+
+  .question__container {
+    gap: 9px;
+    font-size: 11px;
+  }
+
+  .question__link {
+    font-size: 11px;
+    padding: 11px;
+  }
+
+  .question__containerCard {
+    span {
+      font-size: 11.5px;
+    }
+  }
+}
+

@@ -1,4 +1,12 @@
 @font-face {
+  font-family: 'DelaGothicOne-c';
+  src: url('../assets/fonts/DelaGothicOne-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'Inter-c';
   src: url('../assets/fonts/Inter-Light-BETA.woff') format('woff');
   font-weight: 300;

@@ -20,10 +20,13 @@ const ProgramSection = () => {
           <div className={styles.program__sections}>
             <div className={styles.program__section}>
               <ProgramSmallCard className="myCustomClass">
-                <h3 className={`${styles.program__sectionTitle} ${styles.program__container}`}>11:00-12:00</h3>
+        
 
-              
-                <ProgramButton className={styles.program__sectionBtnSmal} >РЕГИСТРАЦИЯ</ProgramButton>
+                  <h3 className={`${styles.program__sectionTitle} ${styles.program__container}`}>11:00-12:00</h3>
+
+                <ProgramButton >РЕГИСТРАЦИЯ
+
+                </ProgramButton>
 
                 <span className={styles.program__span}></span>
               </ProgramSmallCard>
@@ -34,7 +37,7 @@ const ProgramSection = () => {
                 <div className={styles.program__sectionContainer}>
                   <ProgramButton>ПАНЕЛЬНАЯ ДИСКУССИЯ</ProgramButton>
 
-                  <p>"Цифровые технологии для бизнеса"</p>
+                  <p>Цифровые технологии для бизнеса</p>
                 </div>
 
                 <span className={styles.program__span}></span>
@@ -56,7 +59,7 @@ const ProgramSection = () => {
                 <div className={styles.program__sectionContainer}>
                   <ProgramButton>ПАНЕЛЬНАЯ ДИСКУССИЯ</ProgramButton>
 
-                  <p>"Цифровые технологии в сфере индустрии гостеприимства"</p>
+                  <p>Цифровые технологии в сфере индустрии гостеприимства</p>
                 </div>
 
                 <span className={styles.program__span}></span>

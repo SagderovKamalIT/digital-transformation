@@ -1,30 +1,18 @@
 @use "../../styles/core" as *;
+@use "../../styles/mixins" as *;
 
 .header__container {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  padding-top: 75px;
   align-items: center;
+
+  @include fluid-range(padding-top, 15px, 75px);
+  @include fluid-range(gap, 8px, 20px);
 }
 
-@media (max-width: 1620px) {
-  .header__container {
 
-    padding-top: 60px;
-  }
-}
-
-@media (max-width: 1410px) {
-  .header__container {
-    padding-top: 50px;        
-    gap: 20px;               
-  }
-}
 @media (max-width: 1180px) {
   .header__container {
-    padding-top: 40px;
-    gap: 15px;
     align-items: center;
   }
 }
@@ -32,18 +20,24 @@
 
 @media (max-width: 960px) {
   .header__container {
-    padding-top: 25px;
-    gap: 12px;
     align-items: center;
     padding-left: 0 ;
   }
 }
 
 
-@media (max-width: 740px) {
+
+@media (max-width: 620px) {
   .header__container {
-    padding-top: 15px;
-    gap: 8px;
+    padding-top: 12px;  
+    gap: 6px;
   }
 }
 
+@media (max-width: 540px) {
+  .header__container {
+    padding-top: 35px;  
+    gap: 15px;
+   
+  }
+}

@@ -45,3 +45,12 @@ height: 168px;
   }
 }
 
+@media (max-width: 540px) {
+  .speakers__img {
+    width: 80px;
+    height: 80px;
+    border-radius: 82px;
+  }
+}
+
+

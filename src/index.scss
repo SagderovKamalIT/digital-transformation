@@ -15,5 +15,19 @@ body {
   );
 }
 
+@media (max-width: 540px) {
+
+  body {
+     background: linear-gradient (
+         180deg, 
+         #010220 0%,
+         #332f79 40.38%,
+         #383286 71.63%,
+         #161242 100%
+
+     );
+  }
+}
+
 
 

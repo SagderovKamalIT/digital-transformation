@@ -160,3 +160,47 @@
     }
   }
 }
+
+
+
+
+@media (max-width: 540px) {
+  .organization__content {
+    gap: 15px;
+
+    h3 {
+      font-size: 15px;
+      line-height: 100%;
+      text-align: start;
+    }
+  }
+
+  .organization__list {
+    gap: clamp(8px, 5vw, 15px);
+
+    &Element {
+      gap: clamp(8px, 3vw, 20px);
+      font-size: 16px;
+      width: 100%;
+      text-align: start;
+      padding-bottom: 15px;
+
+      border-bottom: 1px solid #fff;
+
+
+    }
+
+    &Element:nth-child(3) {
+      grid-column: auto;
+      justify-self: start;
+      align-items: start;
+      text-align: start;
+    }
+  }
+
+  .organization__listElement {
+    font-size: 10px;
+  }
+
+  
+}

@@ -19,3 +19,16 @@
     opacity: 0.8;           
   }
 }
+
+
+@mixin fluid-range($prop, $minSize, $maxSize, $minViewport: 740px, $maxViewport: 1620px) {
+  #{$prop}: $minSize;
+
+  #{$prop}: clamp(
+    #{$minSize},
+    calc(
+      #{$minSize} + (#{$maxSize - $minSize}) * ((100vw - #{$minViewport}) / (#{$maxViewport - $minViewport}))
+    ),
+    #{$maxSize}
+  );
+}

@@ -40,3 +40,19 @@
     transform: scale(0.75);
   }
 }
+
+
+@media (max-width: 620px) {
+.header__logo {
+width: 180px;
+transform: scale(0.7);
+}
+}
+
+@media (max-width: 620px) {
+.header__logo {
+width: 99px;
+transform: none;
+}
+}
+

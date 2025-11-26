@@ -42,3 +42,11 @@
   }
 }
 
+
+@media (max-width: 540px) {
+  .map {
+    border-radius: 13px;
+     max-width: 368px;
+    aspect-ratio: 368 / 197;
+  }
+}

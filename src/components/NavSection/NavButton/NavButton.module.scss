@@ -64,11 +64,14 @@
 
 @media (max-width: 740px) {
   .navContent {
-    font-size: 20px;
-    padding: 12px 8px;
+    font-size: 14px;
+    padding: 9.5px 10px;
   }
 
   .navCard {
     border-radius: 20px;
+     position: relative;
+  background-image: url("../../../assets/images/NavSection/nav__btn-mobile.svg");
+ 
   }
 }

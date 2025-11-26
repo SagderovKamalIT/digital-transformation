@@ -2,38 +2,46 @@ import React from "react";
 import Title from "../Title/Title";
 import SectionsCard from "./SectionsCard/SectionsCard";
 import styles from "./SectionsSection.module.scss";
-
 const SectionsSection = () => {
   const sections = [
-    '1. Секция "Цифровые технологии в сфере гостеприимства и туризма" (модератор - В.В. Гернеший)',
-    '2. Секция "Цифровые технологии в комплаенсе и контроллинге" (модератор - Ю.В. Рагулина)',
-    '3. Секция "Цифровые технологии на предприятии" (модератор - В.Ф. Уколов)',
-    '4. Молодежная секция: брейншторм (на англ. яз.)',
-    '5. Секция для аспирантов (модератор - О.П. Овчинникова)'
+    { number: "1", text: <>Цифровые технологии в сфере гостеприимства и туризма <br />(модератор - В.В. Гернеший)</>, link: "#" },
+    { number: "2", text: <>Цифровые технологии в комплаенсе и контроллинге <br /> (модератор - Ю.В. Рагулина)</>, link: "#" },
+    { number: "3", text: <>Цифровые технологии на предприятии <br />(модератор - В.Ф. Уколов)</>, link: "#" },
+    { number: "4", text: <>Молодежная секция: брейншторм <br />(модератор - Д.И. Чистяков)</>, link: "#" },
+    { number: "5", text: <>Цифровые технологии в управлении <br />(модераторы - О.П. Овчинникова,Т.В. Кокуйцева)</>, link: "#" }
   ];
 
   return (
-    <div className={styles.section} >
+    <div className={styles.section}>
+      <section className={styles.sections}>
+        <div className={styles.section__wrap}>
+          <div className={styles.sections__container}>
+            <Title className={styles.sections__title}>СЕКЦИИ</Title>
 
-    <section className={styles.sections}>
-      <div className={styles.section__wrap}>
-        <div className={styles.sections__container}>
-          <Title className={styles.sections__title}>СЕКЦИИ</Title>
+            <ul className={styles.sections__list}>
+              {sections.map((item, i) => (
+                <li key={i} className={styles.sections__listItem}>
+                  <SectionsCard className={styles.section__listCard} flipped={i % 2 === 1}>
+                    <div className={styles.section__item}>
+                      <p className={styles.section__number}>{item.number}</p>
 
-          <ul className={styles.sections__list}>
-            {sections.map((text, i) => (
-              <li key={i} className={styles.sections__listItem}>
-               
-               
-                <SectionsCard className={styles.section__listCard} flipped={i % 2 === 1}>
-                  {text}
-                </SectionsCard>
-              </li>
-            ))}
-          </ul>
+                      <a 
+                        href={item.link} 
+                        className={styles.section__link}
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                      >
+                        {item.text}
+                      </a>
+                    </div>
+                  </SectionsCard>
+                </li>
+              ))}
+            </ul>
+
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
     </div>
   );
 };
