@@ -428,7 +428,7 @@ line-height: 96%;
   }
 
    .program__container {
-    gap: 9px;
+    gap: 20px;
     padding: 0;
     position: relative;
   }
@@ -446,9 +446,13 @@ line-height: 96%;
   .program__sectionContainer {
 
     p {
-      font-size: 15px;
+      font-size: 17px;
       line-height: 100%;
     }
+  }
+
+  .program__sectionMobile {
+    display: none;
   }
 
 

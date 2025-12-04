@@ -10,7 +10,7 @@
   &::after {
     content: "";
     position: absolute;
-    bottom: -97%;
+    bottom: -120%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 2115px;
@@ -89,7 +89,7 @@
     position: relative;
 
     &::after {
-      bottom: -116%;
+      bottom: -145%;
     }
   }
   .sections {
@@ -157,7 +157,7 @@
   }
 
   .section::after {
-    bottom: -140%;
+    bottom: -170%;
   }
 }
 
@@ -183,7 +183,7 @@
   }
 
   .section::after {
-    bottom: -160%;
+    bottom: -180%;
     width: 1800px;
     height: 1400px;
   }
@@ -211,7 +211,7 @@
   }
 
   .section::after {
-    bottom: -115%;
+    bottom: -190%;
     width: 1200px;
     height: 950px;
   }
@@ -224,7 +224,7 @@
   }
   
   .sections {
-    padding: 11px 0;
+    padding: 25px 0;
   }
 
   .sections__title {
@@ -232,25 +232,19 @@
   }
 
    .section__item {
-     padding: 0px 0px 0px 25px;
+     padding: 0px 0px 0px 15px;
   }
 
   .sections__container {
-    gap: 11px;
+    gap: 20px;
 
     ul {
-      gap: 6.5px;
+      gap: 10px;
     }
   }
 
   .section__listCard {
-    font-size: 10px;
-  }
-
-  .section::after {
-    bottom: -115%;
-    width: 369px;
-    height: 200px;
+    font-size: 11px;
   }
 
   .section__number {

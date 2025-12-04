@@ -77,8 +77,10 @@ transform-origin: center center;
 .nav__button {
   transform: none;
   background: url(../../../assets/images/HeaderSection/nav__btnMobile.svg);
-  width: 22px;
-  height: 22px;
+  width: 35px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-size: contain;
 
   &::before {
     background: none;
@@ -94,3 +96,5 @@ transform-origin: center center;
   }
 }
 }
+
+

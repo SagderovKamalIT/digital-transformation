@@ -2,7 +2,7 @@ import styles from "./HeaderButton.module.scss";
 
 const Button = ({ text }) => {
   return (
-    <a href="" className={styles.nav__button}>
+    <a href="https://t.me/hsm_rudn/5202" target="_blank" rel="noopener noreferrer" className={styles.nav__button}>
       <svg
         width="54"
         height="54"

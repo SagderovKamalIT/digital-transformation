@@ -43,7 +43,7 @@ const ProgramSection = () => {
                 <span className={styles.program__span}></span>
 
                 <div className={styles.program__container}>
-                  <h3 className={styles.program__sectionTitle}>СПИКЕРЫ</h3>
+                  <h3 className={`${styles.program__sectionTitle} ${styles.program__sectionMobile}`}>СПИКЕРЫ</h3>
 
                   <div>
                     <ProgramSpeakers data={speakersData} />
@@ -65,7 +65,7 @@ const ProgramSection = () => {
                 <span className={styles.program__span}></span>
 
                 <div className={styles.program__container}>
-                  <h3 className={styles.program__sectionTitle}>СПИКЕРЫ</h3>
+                  <h3 className={`${styles.program__sectionTitle} ${styles.program__sectionMobile}`}>СПИКЕРЫ</h3>
 
                   <div>
                     <ProgramSpeakers data={speakersDataPart2} />

@@ -4,6 +4,7 @@ import DirectionsSection from './components/DirectionsSection/DirectionsSection'
 import Footer from './components/Footer/Fotter';
 import Header from './components/Header/Header';
 import HeroSection from './components/HeroSection/HeroSection';
+import HeroSectionMobile from './components/HeroSectionMobile/HeroSectionMobile';
 import LinksSection from './components/LinksSection/LinksSection';
 import NavSection from './components/NavSection/NavSection';
 import OrganizationSection from './components/OrganizationSection/OrganizationSection';
@@ -21,6 +22,7 @@ function App() {
 
     <Header />
     <HeroSection />
+    <HeroSectionMobile />
     <ProgramSection />
     <SectionsSection/>
     <DirectionsSection />

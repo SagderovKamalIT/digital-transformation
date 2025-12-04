@@ -36,8 +36,10 @@
 
 @media (max-width: 540px) {
   .header__container {
-    padding-top: 35px;  
-    gap: 15px;
+    // padding-top: 35px;  
+    // gap: 15px;
+
+    display: none;
    
   }
 }

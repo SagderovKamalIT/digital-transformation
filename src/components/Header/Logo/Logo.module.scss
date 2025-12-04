@@ -56,3 +56,14 @@ transform: none;
 }
 }
 
+
+@media (max-width: 540px) {
+.header__logo {
+
+
+  img {
+    width: 130%;
+    height: auto;
+  }
+}
+}

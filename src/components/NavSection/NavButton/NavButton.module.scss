@@ -64,8 +64,12 @@
 
 @media (max-width: 740px) {
   .navContent {
-    font-size: 14px;
-    padding: 9.5px 10px;
+    font-size: 16px;
+    padding: 14.5px 10px;
+
+    &:hover {
+       color: white;
+    }
   }
 
   .navCard {

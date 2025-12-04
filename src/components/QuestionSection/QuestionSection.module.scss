@@ -29,7 +29,7 @@
   &::before {
     content: "";
     position: absolute;
-     bottom: -35%;
+     bottom: -60%;
      left: 50%;              
   transform: translateX(-50%);
     width: 1911px;
@@ -116,7 +116,7 @@
   
   &::before {
   
-     bottom: -20%;
+     bottom: -40%;
 
     width: 1711px;
     height: 731px;
@@ -162,7 +162,7 @@
     }
 
     &::before {
-      bottom: -21%;
+      bottom: -43%;
       width: 1500px;
       height: 630px;
     }
@@ -195,7 +195,7 @@
     }
 
     &::before {
-      bottom: -22%;
+      bottom: -45%;
       width: 1300px;
       height: 550px;
     }
@@ -229,7 +229,7 @@
     }
 
     &::before {
-      bottom: -27%;
+      bottom: -35%;
       width: 1100px;
       height: 450px;
     }
@@ -287,27 +287,32 @@
 
 @media (max-width: 540px) {
 .question {
-    padding: 18px 0 25px 0;
+    padding: 35px 0 35px 0;
 
     &::after {
       display: none;
     }
 
     &::before {
-      bottom: 90%;
+      bottom: 60%;
       width: 900px;
       height: 380px;
     }
   }
 
   .question__container {
-    gap: 9px;
-    font-size: 11px;
+    gap: 20px;
+    font-size: 13px;
   }
 
   .question__link {
     font-size: 11px;
     padding: 11px;
+
+    &:hover {
+      color: $blue-zodiac;
+      background-color: $white;
+    }
   }
 
   .question__containerCard {
