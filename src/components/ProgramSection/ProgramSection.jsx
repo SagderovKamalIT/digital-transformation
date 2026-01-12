@@ -32,7 +32,7 @@ const ProgramSection = () => {
               </ProgramSmallCard>
 
               <ProgramBigCard>
-                <h3 className={`${styles.program__sectionTitle} ${styles.program__container}`}>12:00-13:00</h3>
+                <h3 className={`${styles.program__sectionTitle} ${styles.program__container}`}>12:00-13:15</h3>
 
                 <div className={styles.program__sectionContainer}>
                   <ProgramButton>ПАНЕЛЬНАЯ ДИСКУССИЯ</ProgramButton>
@@ -54,7 +54,7 @@ const ProgramSection = () => {
 
             <div className={styles.program__sectionPart2}>
               <ProgramBigCard>
-                <h3 className={`${styles.program__sectionTitle} ${styles.program__container}`}>13:00-14:00</h3>
+                <h3 className={`${styles.program__sectionTitle} ${styles.program__container}`}>13:30-14:30</h3>
 
                 <div className={styles.program__sectionContainer}>
                   <ProgramButton>ПАНЕЛЬНАЯ ДИСКУССИЯ</ProgramButton>
@@ -76,7 +76,7 @@ const ProgramSection = () => {
 
             <div className={styles.program__sectionSmall}>
               <ProgramSmallCard className="myCustomClass">
-                <h3 className={`${styles.program__sectionTitle} ${styles.program__container}`}>14:00-15:00</h3>
+                <h3 className={`${styles.program__sectionTitle} ${styles.program__container}`}>14:30-15:00</h3>
 
                 <ProgramButton>КОФЕ-БРЕЙК</ProgramButton>
                 <span className={styles.program__span}></span>

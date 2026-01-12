@@ -134,6 +134,11 @@
       width: 100%; 
       font-size: 14px;
        padding: 14.5px 10px;
+
+       &:hover {
+           color: $blue-zodiac;
+    background: linear-gradient(180deg, #fff 6.46%, #cfd7ff 100%);
+       }
     }
   }
 

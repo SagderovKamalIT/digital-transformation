@@ -58,20 +58,20 @@
 }
 
 .specialLogo2 {
-  max-height: clamp(120px, 14vh, 140px) !important;
+  max-height: clamp(120px, 11vh, 140px) !important;
   width: auto;
   height: auto;
 }
 
 .specialLogo3 {
-  max-height: clamp(160px, 18vh, 184px) !important;
+  max-height: clamp(160px, 15vh, 184px) !important;
   width: auto;
   height: auto;
 }
 
 
 .partners__item:nth-child(1) .partner__img {
-    max-height: clamp(70px, 8vh, 120px);
+    max-height: clamp(70px, 11vh, 120px);
     width: auto;
     display: block;
     object-fit: contain;
@@ -161,7 +161,7 @@
   }
 
   .partners__item:nth-child(1) .partner__img {
-    max-height: clamp(60px, 7vh, 100px);
+    max-height: clamp(60px, 6vh, 100px);
   }
 
   .partners__item:nth-child(2) .partner__img {
@@ -201,7 +201,7 @@
   }
 
   .partners__item:nth-child(1) .partner__img {
-    max-height: clamp(50px, 6vh, 80px);
+    max-height: clamp(50px, 5vh, 80px);
   }
 
   .partners__item:nth-child(2) .partner__img {
@@ -256,7 +256,7 @@
   }
 
   .partners__item:nth-child(1) .partner__img {
-    max-height: clamp(55px, 5vh, 70px);
+    max-height: clamp(50px, 4vh, 70px);
   }
 
   .partners__item:nth-child(2) .partner__img {
@@ -269,7 +269,7 @@
 }
 
 
-@media (max-width: 740px) {
+@media (max-width: 750px) {
   .section__wrap {
     padding: 0 5vw;
   }
@@ -340,6 +340,24 @@
       gap: 20px;
      }
   }
+
+  .partners__item {
+    gap: clamp(5px, 3vw, 10px);
+  }
+
+   .partners__item:nth-child(1) .partner__img {
+    max-height: clamp(20px, 4vh, 25px);
+  }
+
+  .specialLogo2 {
+    max-height: clamp(35px, 6vh, 40px) !important;
+  }
+
+   .specialLogo3 {
+    max-height: clamp(50px, 8vh, 55px) !important;
+  }
+
+
 
   .partners__list {
     gap: 10px;

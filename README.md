@@ -1,16 +1,131 @@
-# React + Vite
+# Цифровая трансформация бизнеса
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌐 **Официальный сайт международной научно-практической конференции**
 
-Currently, two official plugins are available:
+[![React](https://img.shields.io/badge/React-19.2.0-61DAFB?logo=react)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-7.2.2-646CFF?logo=vite)](https://vitejs.dev/)
+[![SASS](https://img.shields.io/badge/SASS-1.94.2-CC6699?logo=sass)](https://sass-lang.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📋 О проекте
 
-## React Compiler
+Официальный веб-сайт международной научно-практической конференции **"Цифровая трансформация бизнеса"**, организованной Высшей школой управления РУДН.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Конференция посвящена обсуждению тенденций, особенностей и эффективных путей цифровой трансформации в компаниях различных сфер экономики. В настоящее время одна из основных национальных целей Российской Федерации - цифровая трансформация бизнеса, достижение которой возможно за счет развития цифровых платформ, программного обеспечения и разработки искусственного интеллекта.
 
-## Expanding the ESLint configuration
+### 📅 Информация о конференции
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Дата проведения:** 9 декабря 2025
+- **Время:** 11:00-18:00
+- **Место:** Конференц-зал экономического факультета РУДН
+- **Организатор:** Высшая школа управления РУДН
+
+## 🚀 Технологии
+
+- **React 19.2.0** - библиотека для создания пользовательских интерфейсов
+- **Vite 7.2.2** - инструмент сборки и разработки
+- **SASS** - препроцессор CSS для стилизации
+- **ESLint** - линтер для проверки качества кода
+
+## 📦 Установка и запуск
+
+### Требования
+
+- Node.js (версия 18 или выше)
+- npm или yarn
+
+### Установка зависимостей
+
+```bash
+npm install
+```
+
+### Запуск в режиме разработки
+
+```bash
+npm run dev
+```
+
+Приложение будет доступно по адресу `http://localhost:5173`
+
+### Сборка для продакшена
+
+```bash
+npm run build
+```
+
+### Предпросмотр продакшен-сборки
+
+```bash
+npm run preview
+```
+
+### Линтинг кода
+
+```bash
+npm run lint
+```
+
+## 📁 Структура проекта
+
+```
+digital-transformation/
+├── public/              # Статические файлы
+├── src/
+│   ├── assets/          # Ресурсы (шрифты, иконки, изображения)
+│   ├── components/      # React компоненты
+│   │   ├── AdressSection/
+│   │   ├── DirectionsSection/
+│   │   ├── Footer/
+│   │   ├── Header/
+│   │   ├── HeroSection/
+│   │   ├── LinksSection/
+│   │   ├── NavSection/
+│   │   ├── OrganizationSection/
+│   │   ├── PartnersSection/
+│   │   ├── ProgramSection/
+│   │   ├── QuestionSection/
+│   │   └── SectionsSection/
+│   ├── styles/          # Глобальные стили и миксины
+│   ├── App.jsx          # Главный компонент приложения
+│   └── main.jsx         # Точка входа
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## 🌐 Деплой
+
+Сайт развернут на GitHub Pages и доступен по адресу:
+**https://sagderovkamalit.github.io/digital-transformation**
+
+Официальный сайт конференции:
+**https://dt.rudn.ru/**
+
+## 📝 Основные функции
+
+- ✅ Адаптивный дизайн для всех устройств
+- ✅ Информация о программе конференции
+- ✅ Секции и направления конференции
+- ✅ Информация об организаторах и партнерах
+- ✅ Форма регистрации на конференцию
+- ✅ Контактная информация и карта
+- ✅ Современный и интуитивный интерфейс
+
+## 🤝 Вклад в проект
+
+Проект разработан для Высшей школы управления РУДН. Для вопросов и предложений обращайтесь к организаторам конференции.
+
+## 📄 Лицензия
+
+Проект разработан для Высшей школы управления РУДН.
+
+## 🔗 Полезные ссылки
+
+- [Официальный сайт конференции](https://dt.rudn.ru/)
+- [РУДН - Российский университет дружбы народов](https://rudn.ru/)
+- [Высшая школа управления РУДН](https://rudn.ru/)
+
+---
+
+**Организатор:** Высшая школа управления РУДН  
+**Дата конференции:** 9 декабря 2025

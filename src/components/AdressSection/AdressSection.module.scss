@@ -26,7 +26,13 @@
     line-height: 96%;
     text-align: center;
   }
+
+  
 }
+
+ .mobileBr {
+    display: none; 
+  }
 
 @media (max-width: 1410px) {
   .adress__container {
@@ -120,4 +126,8 @@
   .adress__title {
     font-size: 22px;
   }
+
+   .mobileBr {
+      display: inline; 
+   }
 }

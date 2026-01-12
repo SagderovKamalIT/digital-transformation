@@ -119,8 +119,7 @@ h3 {
 
 @media (hover: none) and (pointer: coarse) {
   a:hover {
-    color: inherit;
-    background: inherit;
+    color: $white;
     box-shadow: none;
     transform: none;
     filter: none;

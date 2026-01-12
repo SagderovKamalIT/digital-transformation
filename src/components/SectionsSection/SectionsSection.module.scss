@@ -250,5 +250,13 @@
   .section__number {
 font-size: 35px;
   }
+
+  .section__link {
+
+    
+    &:hover {
+      color: #FFFFFF;
+    }
+  }
 }
  

@@ -179,6 +179,10 @@
   .card__UnderlineButton {
     width: 18px;
     height: 18px;
+
+    &:hover {
+       color: $blue-zodiac;
+    }
   }
 }
 

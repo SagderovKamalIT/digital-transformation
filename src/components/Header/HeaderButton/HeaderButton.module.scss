@@ -82,6 +82,14 @@ transform-origin: center center;
   background-repeat: no-repeat;
   background-size: contain;
 
+   &:hover {
+      background: url(../../../assets/images/HeaderSection/nav__btnMobile.svg);
+      background-repeat: no-repeat;
+       width: 35px;
+  height: 35px;
+   background-size: contain;
+    }
+
   &::before {
     background: none;
   }
