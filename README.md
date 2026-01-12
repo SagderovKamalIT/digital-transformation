@@ -71,15 +71,6 @@ npm run lint
 npm run deploy
 ```
 
-Этот скрипт автоматически:
-1. Соберет проект (`npm run build`)
-2. Задеплоит содержимое папки `dist` в ветку `gh-pages`
-
-После деплоя сайт будет доступен по адресу:
-**https://sagderovkamalit.github.io/digital-transformation**
-
-> **Важно:** Убедитесь, что в настройках репозитория GitHub Pages указана ветка `gh-pages` как источник.
-
 ## 📁 Структура проекта
 
 ```
