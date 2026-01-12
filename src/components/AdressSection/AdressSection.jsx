@@ -8,13 +8,7 @@ const AdressSection = () => {
       <div className={styles.section__wrap}>
         <div className={styles.adress__container}>
           <Title className={styles.adress__title}>АДРЕС</Title>
-
-       
-
-            <AdressSectionMap>
-
-            </AdressSectionMap>
-          </div>
+          <AdressSectionMap />
         </div>
       </div>
     </div>
